@@ -1,0 +1,4518 @@
+[
+  {
+    "ID": 1,
+    "SourceId": "756",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-170",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on HWY-170 Both Directions at Old Bay Rd. Activities: Use alternate route - weight and height restrictions may apply.",
+    "Reported": 1685016480,
+    "LastUpdated": 1687177498,
+    "StartDate": 1685016480,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.2140509570955,
+    "Longitude": -67.2297779791829,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/25/2023 9:08:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 6,
+    "SourceId": "72",
+    "Organization": "ERS",
+    "RoadwayName": "Goshen Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Goshen Rd Both Directions near Russiantown Rd.  Weight Restriction: 5000kg  ",
+    "Reported": 1577818920,
+    "LastUpdated": 1665165792,
+    "StartDate": 1577818920,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.7579189945014,
+    "Longitude": -65.2026623177034,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 5000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/31/2019 3:02:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 8,
+    "SourceId": "66",
+    "Organization": "ERS",
+    "RoadwayName": "Ravine Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Under Construction on Ravine Rd Both Directions from Stanley Rd\tto HWY-121. All  Lanes Closed.   Activities: Use alternate route.  ",
+    "Reported": 1391625600,
+    "LastUpdated": 1665164498,
+    "StartDate": 1391625600,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.6215849610023,
+    "Longitude": -65.820260028362,
+    "LatitudeSecondary": 45.548899645862,
+    "LongitudeSecondary": -65.8355795569272,
+    "EventType": "closures",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "{mmuGrovpKjAv@pB`@~ANt@RlBfAhBr@rAT~@Ej@D`Bb@XDZL|DbA^D~Cl@pAAtCQl@StByAp@WnBWZGh@Gn@CZ?jFTx@AjAQr@Sl@IjAEt@Px@\\|@j@dAf@|CdBvAz@r@LdA@`CCXCzAWvAQfA@zD`@bB`@T?h@CRE^Qh@OhAMp@ClAGf@D\\Hb@ZjArBr@fA|CfEv@~@l@l@PJ`@`@hBjAtDhBh@N~@NzCl@n@HVFP@nBt@nAh@VHdAf@vGdE`@XfBlC~AjCpAvAt@h@j@Rz@l@r@`@n@@fBQR@RCfALnCBVEXMr@k@JO\\U`A]h@Qf@ATDVDfA\\r@J~@BdA?l@In@Wt@QxAAbCJvACnAMx@]r@Sh@Cj@?dANr@PlALvAC~DQrADj@Fl@NVBXJPNjA|ArArAj@Tj@JVAf@InAg@dAo@t@a@ZMXIZCj@?TBbAZjBt@j@`@ZNdBvAl@n@b@p@dBxBl@l@r@h@~AzAdChCr@v@dA~AX\\\\Vr@v@X`@p@|@zArDbBvDvAxChBnDrBrDd@bAdCnEp@pAN\\XVf@p@`Ax@hBv@v@T|@P`@FvAL|BAzB[ZC\\Kx@a@d@Mf@a@bAoARQp@i@XOZKr@GtAV`CD~@Qf@G`@Kd@S|@e@ZUp@u@n@w@~@uA~AcDRYRUZMrA_@v@YlC}Aj@q@N_@J]XyAJWPMrB_A`@OZCdAFx@Lt@Al@Mj@c@f@{@`@cAZuAj@qAb@}@Jm@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/5/2014 2:40:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 13,
+    "SourceId": "696",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-315",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on HWY-315 Both Directions near HWY-322.  Weight Restriction: 37500kg  ",
+    "Reported": 1684259400,
+    "LastUpdated": 1684259495,
+    "StartDate": 1684259400,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.7321425151624,
+    "Longitude": -65.7582027382998,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 37500.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/16/2023 2:50:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 14,
+    "SourceId": "596",
+    "Organization": "ERS",
+    "RoadwayName": "Beersville Back Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Breakup on Beersville Back Rd from 0.82 Km Beyond HWY-470 to 2.19 Km Before Pretre Rd. All Lanes Closed.   Activities: Impassable.  ",
+    "Reported": 1681389780,
+    "LastUpdated": 1681390315,
+    "StartDate": 1681389780,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.4804925327417,
+    "Longitude": -65.0882576502301,
+    "LatitudeSecondary": 46.4630712513062,
+    "LongitudeSecondary": -65.0708162985656,
+    "EventType": "closures",
+    "EventSubType": "Breakup",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "afuzGrpglKRSP]L_@f@{BRyABi@BwCBa@BOLg@DOP]NQXQpBEfAIb@AnAQpBe@jHsBjIyBlAWf@QtAYbDy@tCo@fBU`@KvB[p@OVKNSP]Hi@XmAd@aAxA}@bC_BfAk@`@Qv@e@XYXa@Vc@~AgDRm@xBiHfBoGdC_HrD_JrAmCdA}A",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 19,
+    "SourceId": "67",
+    "Organization": "ERS",
+    "RoadwayName": "Cheyne Settlement Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Out on Cheyne Settlement Rd Both Directions near Brittain Rd. All lanes closed.",
+    "Reported": 1450464240,
+    "LastUpdated": 1754916826,
+    "StartDate": 1450464240,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.4301499618325,
+    "Longitude": -66.2299899618324,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 20,
+    "SourceId": "21",
+    "Organization": "ERS",
+    "RoadwayName": "Old River Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Washouts on Old River Rd from 1 Km Beyond HWY-109 to Leonard Cross Rd. All Lanes Closed.   Activities: Closed to trucks, Re-opened.  ",
+    "Reported": 1463022000,
+    "LastUpdated": 1674165360,
+    "StartDate": 1463022000,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.7771195357963,
+    "Longitude": -67.5209406963057,
+    "LatitudeSecondary": 46.7796561317809,
+    "LongitudeSecondary": -67.515752190465,
+    "EventType": "closures",
+    "EventSubType": "Washouts",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "_do|Gztb{K_A_BaBwCiA_DoGuR",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 21,
+    "SourceId": "2683",
+    "Organization": "ERS",
+    "RoadwayName": "High Marsh Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Out on High Marsh Rd at Tantramar River #2 (Wheaton) T050. All lanes closed. Activities: Barricades in place, Use alternate route.",
+    "Reported": 1720720800,
+    "LastUpdated": 1724683975,
+    "StartDate": 1720720800,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.9317769556761,
+    "Longitude": -64.3304060480437,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "u`jwGfosgKAYFw@Ps@nCiHL[e@_@eAu@s@i@US[s@Uq@Ye@m@a@wA[]Ok@k@_@o@w@}B_@u@]a@oAeAyAeBmKsKmE}E_ByAwAy@yRsJUSi@m@q@k@gAmAu@s@uD{Bs@q@}@gAmBuCcEwFsAqB{BeE_A_C}F_MgGqNiJ_TgGaNc@oAS{@Qy@y@mBe@cA??cGaNaByDg@q@iDeC}@aAq@uAgE{Ki@kAc@c@k@WsBoAm@m@aGyImDgGUWYGk@@sGxAeHpB{N`D}GlB_J|B{NfDuOhDs@Xt@rAv@tA`@v@b@|@b@bAPf@Pl@\\nAf@xBp@~CdAzExBbKbBdI`AjEp@tC|A|Gb@jBd@tBRv@Lb@N^Xd@^d@bCpCxBdCfAnAzCjDtClDnA|Ah@t@\\d@f@x@x@zAPZpB|DtAlCbBfDvApCpAjCxD`IpF`LvFhLvBpEfCjFxCfG|A`Dv@|Aj@lAp@rA^z@^bA`@lAzAfF|ArFr@dCj@hBb@hAh@nAXj@Vb@Xb@Zb@`D~D`AhArA~Az@~@z@z@z@|@r@n@~AnA`Ar@t@l@\\ZV\\T\\R`@Xv@Rp@\\`BDTh@nCPj@P^RZVZXVZRlDdBpAp@TLr@b@v@l@d@`@Z\\tA~An@r@l@j@n@h@zFnElDpClDvCnEvD`EfD`Ax@jAcD~AyDdI_TzBqFtAaDnA\\zAh@z@b@",
+    "DetourInstructions": [
+      "Head east on High Marsh Rd. Go for 209 m.",
+      "Turn left onto Goose Lake Rd. Go for 6.4 km.",
+      "Turn left onto HWY-940. Go for 5.6 km.",
+      "Continue on Pond Shore Rd (HWY-940). Go for 418 m.",
+      "Turn left onto Station Rd. Go for 678 m.",
+      "Turn right onto Church St. Go for 136 m.",
+      "Arrive at Church St. Your destination is on the right."
+    ],
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 24,
+    "SourceId": "1810",
+    "Organization": "ERS",
+    "RoadwayName": "3rd Ave",
+    "DirectionOfTravel": "Both",
+    "Description": "Under Construction on 3rd Ave Both Directions from HWY-107 to 2nd Ave. All lanes closed. Activities: Use alternate route.",
+    "Reported": 1703164140,
+    "LastUpdated": 1737404251,
+    "StartDate": 1703164140,
+    "PlannedEndDate": 1769821200,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.4121666212243,
+    "Longitude": -66.9342404762735,
+    "LatitudeSecondary": 46.4114812090938,
+    "LongitudeSecondary": -66.9350027891574,
+    "EventType": "closures",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "a{gzG~apwKf@b@`BrB",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/21/2023 9:09:00 AM-04:00:00",
+        "EndDate": "1/30/2026 9:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 27,
+    "SourceId": "2463",
+    "Organization": "ERS",
+    "RoadwayName": "Oleary Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Under Construction on Oleary Rd Both Directions 1.7 Km Beyond HWY-101. Lane Alternating. Activities: Be prepared to stop, One lane traffic, Reduced speed required, Traffic lights present. Expect Delays: Under 30 minutes",
+    "Reported": 1712660400,
+    "LastUpdated": 1716924222,
+    "StartDate": 1712660400,
+    "PlannedEndDate": null,
+    "LanesAffected": "Lane Alternating",
+    "Latitude": 45.7924773948496,
+    "Longitude": -66.7100140300335,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "4/9/2024 8:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 30,
+    "SourceId": "93",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-130",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on HWY-130 Both Directions at Aroostook River.  Weight Restriction: 50800kg  ",
+    "Reported": 1644327120,
+    "LastUpdated": 1665575665,
+    "StartDate": 1644327120,
+    "PlannedEndDate": 1988155980,
+    "LanesAffected": "No Data",
+    "Latitude": 46.8222588016243,
+    "Longitude": -67.7346622753045,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 50800.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/8/2022 9:32:00 AM-04:00:00",
+        "EndDate": "12/31/2032 9:33:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 33,
+    "SourceId": "1404",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-10",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Under Construction on HWY-10 at Salmon River #1 (Closed Lane) (Chipman) S081. Width Restriction: 4.2m Weight Restriction: 62500kg Speed Restriction: 30km/h Activities: Local detour, One lane traffic, Traffic lights present, Utilities maintenance work, Watch for equipment & persons working.",
+    "Reported": 1677668400,
+    "LastUpdated": 1726489463,
+    "StartDate": 1677668400,
+    "PlannedEndDate": 1791061200,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1777491203017,
+    "Longitude": -65.881828872022,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": 4.20,
+      "Height": null,
+      "Length": null,
+      "Weight": 62500.00,
+      "Speed": 30.00
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/1/2023 7:00:00 AM-04:00:00",
+        "EndDate": "10/3/2026 6:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 34,
+    "SourceId": "84",
+    "Organization": "ERS",
+    "RoadwayName": "18th Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on 18th Rd Both Directions from HWY-10\tto 2.5 Km Beyond HWY-10.   ",
+    "Reported": 1456575660,
+    "LastUpdated": 1665487319,
+    "StartDate": 1456575660,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.0227,
+    "Longitude": -66.18979,
+    "LatitudeSecondary": 46.0436821302528,
+    "LongitudeSecondary": -66.1976798965343,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "{x{wGdu~rKaCv@o@TuIzDaA\\cBf@sErAeATuBRoDHeAEmAQmAMqDOw@K_AWeAMq@Da@NyAt@wGjCoDlAiCbAcJzBaGrAq@Re@Tk@^i@d@eCtCe@f@a@X_@P{AXu@R_C~@sFvC[^",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/27/2016 8:21:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 37,
+    "SourceId": "694",
+    "Organization": "ERS",
+    "RoadwayName": "Eglise St",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Eglise St Both Directions near HWY-275.  Weight Restriction: 20320kg  ",
+    "Reported": 1684259040,
+    "LastUpdated": 1684259125,
+    "StartDate": 1684259040,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 48.0172461269742,
+    "Longitude": -66.4173322539482,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 20320.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/16/2023 2:44:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 40,
+    "SourceId": "496",
+    "Organization": "ERS",
+    "RoadwayName": "St Charles Station Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on St Charles Station Rd Both Directions 411 m Beyond HWY-116.   ",
+    "Reported": 1678837740,
+    "LastUpdated": 1678838415,
+    "StartDate": 1678837740,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.6393033350665,
+    "Longitude": -64.9496112805557,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "Major",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/14/2023 8:49:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 41,
+    "SourceId": "1819",
+    "Organization": "ERS",
+    "RoadwayName": "Newcastle Centre Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Out on Newcastle Centre Rd near Newcastle Creek #1 N260. All lanes closed. Activities: Use alternate route.",
+    "Reported": 1729684800,
+    "LastUpdated": 1758894077,
+    "StartDate": 1729684800,
+    "PlannedEndDate": 1856088000,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0779412452497,
+    "Longitude": -65.9906653727771,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 42,
+    "SourceId": "1190",
+    "Organization": "ERS",
+    "RoadwayName": "Lasalle Ln",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Out on Lasalle Ln Both Directions near Mcintosh Creek #4 (Dugas Romain) M224. All Lanes Closed.",
+    "Reported": 1691511060,
+    "LastUpdated": 1691511595,
+    "StartDate": 1691511060,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.7566576655081,
+    "Longitude": -65.0181532720953,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 43,
+    "SourceId": "73",
+    "Organization": "ERS",
+    "RoadwayName": "Rouse Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Road Breakup on Rouse Rd from Knightville Rd to HWY-890. All lanes closed.",
+    "Reported": 1577819100,
+    "LastUpdated": 1724251049,
+    "StartDate": 1577819100,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.88003,
+    "Longitude": -65.3374499999999,
+    "LatitudeSecondary": 45.8894095313142,
+    "LongitudeSecondary": -65.3628471125667,
+    "EventType": "closures",
+    "EventSubType": "Road Breakup",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "e}_wG`fxmKE|CFbB\\lD@t@En@Ml@oApDaA|Cc@hBoFlQiAdEsCdJ_AfDo@nCgFzOgA`E_EpMsAnFuAjF}FdQgA`EQ^SRaAv@e@f@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 44,
+    "SourceId": "440",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-510",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on HWY-510 Both Directions near John Macwilliams Rd.  Weight Restriction: 10000kg  ",
+    "Reported": 1677179220,
+    "LastUpdated": 1677179290,
+    "StartDate": 1677179220,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.5765026640095,
+    "Longitude": -64.9552432651595,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 10000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/23/2023 3:07:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 51,
+    "SourceId": "2",
+    "Organization": "ERS",
+    "RoadwayName": "Mountain Brook Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Mountain Brook Rd Both Directions near Aventuriers St. Weight Restriction: 3000kg Activities: Local detour, Use local detour - weight and height restrictions may apply.",
+    "Reported": 1607918400,
+    "LastUpdated": 1694016146,
+    "StartDate": 1607918400,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.9732807291388,
+    "Longitude": -66.3299987496646,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 3000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/14/2020 12:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 52,
+    "SourceId": "2919",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-950",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on HWY-950 near Little Cape Brook (C. Leger) L370. Weight Restriction: 17000kg",
+    "Reported": 1725955200,
+    "LastUpdated": 1725976664,
+    "StartDate": 1725955200,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1811528446117,
+    "Longitude": -64.1652506481721,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 17000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "9/10/2024 5:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 56,
+    "SourceId": "3128",
+    "Organization": "ERS",
+    "RoadwayName": "Demerchant Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Repair on Demerchant Rd from Left Branch Pokiok River #3 (Maskell) L220 to Left Branch Pokiok River #3 (Maskell) L220. All lanes closed. Activities: Impassable, Use alternate route.",
+    "Reported": 1729764000,
+    "LastUpdated": 1729767579,
+    "StartDate": 1729764000,
+    "PlannedEndDate": 1893538800,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.8265846682575,
+    "Longitude": -67.6063141788141,
+    "LatitudeSecondary": 46.8264919962393,
+    "LongitudeSecondary": -67.606356723159,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "cyx|Gljs{KNF@@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/24/2024 7:00:00 AM-04:00:00",
+        "EndDate": "1/1/2030 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 58,
+    "SourceId": "2149",
+    "Organization": "ERS",
+    "RoadwayName": "Iroquois Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on Iroquois Rd Both Directions near Iroquois River #3 (Corriveau Mill) H825. Weight Restriction: 26000kg Activities: One lane traffic, Traffic lights present.",
+    "Reported": 1711470600,
+    "LastUpdated": 1711541304,
+    "StartDate": 1711470600,
+    "PlannedEndDate": 1861891260,
+    "LanesAffected": "No Data",
+    "Latitude": 47.3714139344264,
+    "Longitude": -68.2769512691696,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 26000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/26/2024 1:30:00 PM-04:00:00",
+        "EndDate": "12/31/2028 12:01:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 59,
+    "SourceId": "11",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-101",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on HWY-101 Both Directions near Smith Rd.   Activities: Be prepared to stop, One lane traffic.   Expect Delays: Under 30 minutes ",
+    "Reported": 1615950060,
+    "LastUpdated": 1667580818,
+    "StartDate": 1615950060,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.7892464513412,
+    "Longitude": -66.6951967741077,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/17/2021 12:01:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 60,
+    "SourceId": "54",
+    "Organization": "ERS",
+    "RoadwayName": "Restigouche River Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Breakup on Restigouche River Rd Both Directions 4 Km Beyond Manns Mountain Rd. All Lanes Closed.   ",
+    "Reported": 1458836580,
+    "LastUpdated": 1678469254,
+    "StartDate": 1458836580,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.9119538722031,
+    "Longitude": -66.9620655451719,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Road Breakup",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 66,
+    "SourceId": "1703",
+    "Organization": "ERS",
+    "RoadwayName": "Sharps Mill Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Washouts on Sharps Mill Rd Both Directions at Parleeville Rd. All Lanes Closed. Activities: Impassable, Rough sections, Water on road.",
+    "Reported": 1700675400,
+    "LastUpdated": 1700677373,
+    "StartDate": 1700675400,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.7253474957298,
+    "Longitude": -65.6576263062044,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Washouts",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 67,
+    "SourceId": "2035",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-7 Westbound",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Under Construction on ramp from HWY-7 Westbound to Liverpool St. All lanes closed. Activities: Impassable, Use alternate route.",
+    "Reported": 1709565900,
+    "LastUpdated": 1711045960,
+    "StartDate": 1709565900,
+    "PlannedEndDate": 2025012360,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.9298000000001,
+    "Longitude": -66.6457799999999,
+    "LatitudeSecondary": 45.9300586843116,
+    "LongitudeSecondary": -66.6459695614371,
+    "EventType": "closures",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "gtiwGbwwuKg@`@c@Je@I",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/4/2024 11:25:00 AM-04:00:00",
+        "EndDate": "3/3/2034 11:26:00 AM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 68,
+    "SourceId": "3171",
+    "Organization": "ERS",
+    "RoadwayName": "Jalbert Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Repair on Jalbert Rd from Island Brook (S.E.Branch) H890 to Island Brook #4 (Teed Brook #2) H880. All lanes closed. Activities: Impassable, Local detour.",
+    "Reported": 1730815200,
+    "LastUpdated": 1730729916,
+    "StartDate": 1730815200,
+    "PlannedEndDate": 2051186400,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.4986190488985,
+    "Longitude": -68.4587840699589,
+    "LatitudeSecondary": 47.498494924252,
+    "LongitudeSecondary": -68.4588407467491,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "ka|`Hjzy`LDBRF",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/5/2024 10:00:00 AM-04:00:00",
+        "EndDate": "12/31/2034 10:00:00 AM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 69,
+    "SourceId": "655",
+    "Organization": "ERS",
+    "RoadwayName": "Venning Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Venning Rd Both Directions near HWY-890.",
+    "Reported": 1682935200,
+    "LastUpdated": 1687177535,
+    "StartDate": 1682935200,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.8013350365734,
+    "Longitude": -65.4573229325709,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/1/2023 7:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 71,
+    "SourceId": "692",
+    "Organization": "ERS",
+    "RoadwayName": "Linda St",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Linda St Both Directions near George St.  Weight Restriction: 35500kg  ",
+    "Reported": 1684256460,
+    "LastUpdated": 1684256783,
+    "StartDate": 1684256460,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.7026792703195,
+    "Longitude": -65.7215308015234,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 35500.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/16/2023 2:01:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 72,
+    "SourceId": "1866",
+    "Organization": "ERS",
+    "RoadwayName": "Mactaquac Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on Mactaquac Rd Both Directions near Approach Channel Bridge (Mactaquac) A495. Lane Affected. Weight Restriction: 30000kg Activities: Be prepared to stop, One lane traffic, Reduced speed required, Rough sections, Traffic lights present. Expect Delays: Under 30 minutes",
+    "Reported": 1696270680,
+    "LastUpdated": 1732908358,
+    "StartDate": 1696270680,
+    "PlannedEndDate": null,
+    "LanesAffected": "Lane Affected",
+    "Latitude": 45.9550906062402,
+    "Longitude": -66.8713631269957,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 30000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/2/2023 3:18:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 159,
+    "SourceId": "3290",
+    "Organization": "ERS",
+    "RoadwayName": "Enclosure Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Enclosure Rd Both Directions near Enclosure Park Rd. All lanes closed. Activities: Use alternate route.",
+    "Reported": 1734467520,
+    "LastUpdated": 1734453295,
+    "StartDate": 1734467520,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.9612001457724,
+    "Longitude": -65.5946735335286,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/17/2024 4:32:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 219,
+    "SourceId": "3351",
+    "Organization": "ERS",
+    "RoadwayName": "St-Philippe Chemin",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Washouts on St-Philippe Chemin near Calhoun Brook Culvert #2 (Closed To Traffic) (Saint-Philippe) WU05. All lanes closed.",
+    "Reported": 1739455560,
+    "LastUpdated": 1739455648,
+    "StartDate": 1739455560,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.2160843436383,
+    "Longitude": -64.6781680647505,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Washouts",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 220,
+    "SourceId": "3352",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-895",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Out on HWY-895 near Coverdale River #9 (Pond Parkins) C768. All lanes closed.",
+    "Reported": 1739455740,
+    "LastUpdated": 1740672678,
+    "StartDate": 1739455740,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.8653,
+    "Longitude": -64.9953716609543,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "ca}vGblukK?w@CgCG_ACYh@_BjBr@bCzA^HrAf@r@PnATdBt@x@b@z@XbCf@zBVz@PzAL^JvCb@z@Pv@J~@I~Ae@xA_AZOhC_BvGeB|@Q`Ji@~AA\\B^AdAKj@a@VWRYP_@RYfBmBp@UvFLtC^|Cf@tC`@tCf@^Jx@LXJn@b@^t@J^|A~Jt@dENfAxBtLtAbIzAjIbBxJyHLwG@??uA?gBD",
+    "DetourInstructions": [
+      "Head east on HWY-895. Go for 110 m.",
+      "Turn right toward Sugarbush Rd. Go for 44 m.",
+      "Turn right onto Sugarbush Rd. Go for 3.3 km.",
+      "Turn right onto Pleasant Vale Rd. Go for 436 m.",
+      "Arrive at Pleasant Vale Rd. Your destination is on the right."
+    ],
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 221,
+    "SourceId": "3353",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-134",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on HWY-134 at Shediac River #1 S277. Weight Restriction: 15000kg",
+    "Reported": 1739456040,
+    "LastUpdated": 1739456170,
+    "StartDate": 1739456040,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.2723650999084,
+    "Longitude": -64.5754365299725,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 15000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/13/2025 10:14:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 222,
+    "SourceId": "3354",
+    "Organization": "ERS",
+    "RoadwayName": "Powers Pit Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on Powers Pit Rd near Kimmers Ln. Weight Restriction: 10000kg",
+    "Reported": 1739456220,
+    "LastUpdated": 1739456331,
+    "StartDate": 1739456220,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.9976950372277,
+    "Longitude": -65.0910370819007,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 10000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/13/2025 10:17:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 236,
+    "SourceId": "3372",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-112",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on HWY-112 at Petitcodiac River #2 (Closed Lane) (Salisbury) P380. Weight Restriction: 20000kg Activities: One lane traffic, Traffic lights present.",
+    "Reported": 1740672000,
+    "LastUpdated": 1740672173,
+    "StartDate": 1740672000,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.0217969954258,
+    "Longitude": -65.0339571299181,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 20000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/27/2025 12:00:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 237,
+    "SourceId": "3373",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-106",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on HWY-106 at Petitcodiac River #6 P400. Weight Restriction: 30000kg",
+    "Reported": 1740672180,
+    "LastUpdated": 1740672301,
+    "StartDate": 1740672180,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.9334697713591,
+    "Longitude": -65.1768095998782,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 30000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "2/27/2025 12:03:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 371,
+    "SourceId": "3520",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-1 Eastbound",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Repair on ramp from HWY-1 Eastbound to HWY-1 Westbound. All lanes closed.",
+    "Reported": 1743415200,
+    "LastUpdated": 1743182130,
+    "StartDate": 1743415200,
+    "PlannedEndDate": 1764550800,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.2713000000001,
+    "Longitude": -66.0751,
+    "LatitudeSecondary": 45.2738968385801,
+    "LongitudeSecondary": -66.0755726010276,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "s`isGjhhrKe@Q_@WW[MQ[c@gAeBY_@Y[YQ_@KWCY@WHMFWTONGJO\\K\\EZE^Ep@GjAKfBK`BEz@CfAReADw@FcAJgBFe@HWFSJOJOJIRKRCNCZH^Lv@\\^N`AN",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "3/31/2025 7:00:00 AM-04:00:00",
+        "EndDate": "11/30/2025 9:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 416,
+    "SourceId": "3563",
+    "Organization": "ERS",
+    "RoadwayName": "Lower Rockport Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on Lower Rockport Rd at Pecks Cove P220. Weight Restriction: 20000kg",
+    "Reported": 1743708060,
+    "LastUpdated": 1743708163,
+    "StartDate": 1743708060,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.7479851071109,
+    "Longitude": -64.4913697109894,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 20000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "4/3/2025 4:21:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 433,
+    "SourceId": "3580",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-455",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on HWY-455 Both Directions from HWY-11 to HWY-450. Activities: Closed to trucks.",
+    "Reported": 1744020000,
+    "LastUpdated": 1744140095,
+    "StartDate": 1744020000,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.2507029018998,
+    "Longitude": -65.0757766237083,
+    "LatitudeSecondary": 47.2796381608508,
+    "LongitudeSecondary": -65.2861227422494,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "{sk_HrbelK{BfJaBtGaA`EaCvJw@dDgGpVwCzLs@tCu@vC{AdGiCrKqAlFkA~E}D~OqCbLaDtMoAdFeA`Eo@fCWx@Yn@Wf@W`@OPEFUVWTYTWN[P{Al@_Bj@_Bh@cC|@eBp@wBt@cE|AkC`AaA^E@iA`@gE|A_Bl@kAb@qAh@SJUNSPQTQVO\\Qj@Uz@gAvE}@tDwC`MeGjWmDfO_GtVSx@_Ao@SMwCmBkEuCgFiD_@zAw@fDm@bCyChMqBxIUbAw@~CqAxFyEdSqCtLiBvHkCbMkDxP{@`EAFo@tCI`@aFhTwC`MuA`GsArFU|@qAnFaDdN{ApG[tAiCxKuD`PqAnFcAhE_AbEuA|FeChKmAfFcAlEkDvNc@jBo@hC]xAa@`Bw@dD{D`PoCdLkFjToBdIoAdFgAjE{AfGwAxFcA|DgBhHaAxD_AtDwA`GENa@`BmAxEc@dBw@xCk@zBOj@Mf@Mj@_@vAMl@If@C^?^@b@Df@f@pDp@pE`@rCt@bFzAhKvBfO~@lGvB`Od@bDf@pDx@rF`AxGtApJjA`IT~A\\dCn@jEv@tFjBhMrCxR~AbLv@hF`@rCtAjJd@|Ch@vDVjBp@hEdBlLrAvIfCtPtAlJDTZvBd@~CfBlLdAbHrAbJzA~J`B~KxAvJrCbRlBnMzDlWz@zF@JRtAh@jDh@rDRnANt@Pr@N`@T^X\\VTf@\\lD~BjAx@zCtBnHbFJHDBt@f@lCfBzHlFZRbBhAfG`EjCbB",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "4/7/2025 7:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 434,
+    "SourceId": "3581",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-445",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on HWY-445 Both Directions from HWY-11 to HWY-450. Activities: Closed to trucks.",
+    "Reported": 1744020000,
+    "LastUpdated": 1744140154,
+    "StartDate": 1744020000,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.3162885921672,
+    "Longitude": -65.0146654861615,
+    "LatitudeSecondary": 47.2300901829296,
+    "LongitudeSecondary": -65.1768700696791,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "ymx_HtdykK@PFp@VpBHp@Fp@Bd@@d@?TATAPE\\G\\IZUr@eBbFs@tBs@vBEJ_@hAgAbDk@~Aq@jBa@`AVfBhCxPhCtPdMjy@zCzRrF|]rDtUxEhZjBjLjAhHF\\@Hz@pFrAfIhCbP|BpNrAfI~A~J|ArJbCdO|DjVhErWbFd[`CvNvA`JxBbNoCtDeB~BjCrFpEtJvLhWbFzK|ElKnFhLjB|DnAlC@BjAbCfCrFlAdCdAxBb@~@|AbDxA|Cl@pAjAbCpAnC^x@b@|@`@t@`@l@XZTTZT\\TbAn@rA|@tA|@|@j@TNfAt@dElCnAz@dAr@bAp@nAx@|@l@RLfFhDxDdCjCdBn@b@hBjAj@`@dC~AfFhDjEtCvClBRL~@n@h@\\xA`AlHvEbDvBtBrArClBdBfAVPlCbBvA~@lAx@z@j@fFfD~BzArA|@xE|C`EpCtA|@pCjBe@vBw@dDcAfEqAlFkBzH_BxG_A|D[nAOn@U~@YlASx@UhAEb@@\\BVHXNXLRNPRPh@b@v@j@|@n@~AfAhBpApBrAlBpAjD|BrD`C~CtB|EdDlGfErBvArJnGvE~ChJhG`IjFdHpEjCdBzE`DhD|BlD~BrLxHvI|FRLfBlAvCnBdErCnD`C`EnCnEtCbC`BdBhArClB`@VZLTF^@VCXKXQl@c@\\Yf@a@p@g@h@_@TKPCNBLJJTL\\ZhAp@`C\\rAf@fBp@dCx@vCbAvDnAtExAjF|@fDt@rC",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "4/7/2025 7:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 443,
+    "SourceId": "3590",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-430",
+    "DirectionOfTravel": "South",
+    "Description": "Bridge Restrictions on HWY-430 Southbound near Trout Brook #2 T530. Activities: One lane traffic, Traffic lights present. Expect Delays: Under 30 minutes",
+    "Reported": 1744635600,
+    "LastUpdated": 1744634034,
+    "StartDate": 1744635600,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.1160031386474,
+    "Longitude": -65.7732649633541,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "4/14/2025 10:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 569,
+    "SourceId": "3717",
+    "Organization": "ERS",
+    "RoadwayName": "Johnston Ln",
+    "DirectionOfTravel": "Both",
+    "Description": "Paving on Johnston Ln Both Directions from Lower Durham Rd to Lower Durham Rd. Activities: Be prepared to stop, Flag persons in attendance, Fresh asphalt, Heavy equipment working, Impassable, One lane traffic, Reduced speed required, Utilities maintenance work, Watch for equipment & persons working. Expect Delays: Under 30 minutes",
+    "Reported": 1747052580,
+    "LastUpdated": 1747052636,
+    "StartDate": 1747052580,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1367333036595,
+    "Longitude": -66.5105845702358,
+    "LatitudeSecondary": 46.12766,
+    "LongitudeSecondary": -66.5104699999999,
+    "EventType": "roadwork",
+    "EventSubType": "Paving",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "qarxGbj}tKnBUh@@f@ApA?xKI^BjB@~L?hCB`@C`D@vBAPBbA?",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu:</b><br/>6:00 AM - 9:00 PM<br/><br/><b>Fri:</b><br/>6:00 AM - 5:00 PM<br/><br/><b>Sat, Sun:</b><br/>Paused all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/12/2025 9:23:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "06:00:00-04:00:00",
+            "EndTime": "20:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ]
+      },
+      {
+        "StartDate": "5/12/2025 9:23:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "06:00:00-04:00:00",
+            "EndTime": "16:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 570,
+    "SourceId": "3716",
+    "Organization": "ERS",
+    "RoadwayName": "Upper Durham Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Paving on Upper Durham Rd Both Directions from Upper Durham Road-Rte. 8 Overpass U230 to Johnston Ln. Activities: Be prepared to stop, Flag persons in attendance, Fresh asphalt, Heavy equipment working, One lane traffic, Reduced speed required, Utilities maintenance work, Watch for equipment & persons working.",
+    "Reported": 1747052280,
+    "LastUpdated": 1747052653,
+    "StartDate": 1747052280,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1354090658879,
+    "Longitude": -66.6026480138861,
+    "LatitudeSecondary": 46.1369100000001,
+    "LongitudeSecondary": -66.5106499999999,
+    "EventType": "roadwork",
+    "EventSubType": "Paving",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "iyqxGpiouK_CqEuAuCyK_TeA}B{CuGyBuF[}@{@uDqAsEu@oCc@aBeAkE}B{HaAoD_AaDuCeJuBeH[gAUkA]eAWeAaAwEIeAAcAFiCf@mH@qA?cG]se@CwMOq]HoCV_F|@qMVwC~E}_@lB{LZcAhBqFvQgg@x@iC`AeE~EyTf@kCNkAX}Ch@yHTeFC{H@_J@mTCc_@BgC@}c@BwDC_D@cECg@Bc@D]NS",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu:</b><br/>6:00 AM - 9:00 PM<br/><br/><b>Fri:</b><br/>6:00 AM - 5:00 PM<br/><br/><b>Sat, Sun:</b><br/>Paused all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/12/2025 9:18:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "06:00:00-04:00:00",
+            "EndTime": "20:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ]
+      },
+      {
+        "StartDate": "5/12/2025 9:18:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "06:00:00-04:00:00",
+            "EndTime": "16:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 611,
+    "SourceId": "3761",
+    "Organization": "ERS",
+    "RoadwayName": "Mactaquac Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Repair on Mactaquac Rd from Mactaquac Dam Bridge M032 to French Village Rd. Width Restriction: 4m Activities: One lane traffic.",
+    "Reported": 1748300160,
+    "LastUpdated": 1747755196,
+    "StartDate": 1748300160,
+    "PlannedEndDate": 1764327600,
+    "LanesAffected": "No Data",
+    "Latitude": 45.9589300000001,
+    "Longitude": -66.87272,
+    "LatitudeSecondary": 45.9435150269946,
+    "LongitudeSecondary": -66.8669010772131,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "ijowGnadwKdD_ChA{@r@c@v@]v@UZEZGdACv@D\\@pCLzDRlERxAH`A@`AAp@Gv@Kz@SpAc@`@Sj@[^Wr@k@|@{@p@y@b@o@r@mAl@uAzAeEJWTc@^m@FKf@m@f@e@^Wd@Yh@Sb@M`AOh@Cf@@`@Bf@Fx@RbAXv@Pj@J^DB?J@N@\\?ZAHAn@EXE",
+    "Restrictions": {
+      "Width": 4.00,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/26/2025 7:56:00 PM-04:00:00",
+        "EndDate": "11/28/2025 7:00:00 AM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 685,
+    "SourceId": "3837",
+    "Organization": "ERS",
+    "RoadwayName": "Ennishone Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on Ennishone Rd Both Directions near Ennishone Road C.N.R. Overhead E690. All lanes closed. Activities: Impassable, Local detour. Effective 21 Nov, the structure will re-open to 1 lane traffic.",
+    "Reported": 1748607240,
+    "LastUpdated": 1760704307,
+    "StartDate": 1748607240,
+    "PlannedEndDate": 1764622800,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.0625672298927,
+    "Longitude": -67.6945692336911,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "Major",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "5/30/2025 9:14:00 AM-04:00:00",
+        "EndDate": "12/1/2025 5:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 707,
+    "SourceId": "3859",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-134",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Road Restrictions on HWY-134 near Shediac Road Underpass S304. Activities: Adjacent to road. Visibility: Visibility reduced in fog.",
+    "Reported": 1732308360,
+    "LastUpdated": 1748893923,
+    "StartDate": 1732308360,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.2283563408153,
+    "Longitude": -64.5788424161249,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/22/2024 4:46:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 754,
+    "SourceId": "3909",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-595",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on HWY-595 Both Directions from Nackawic River #2 (Closed Lane) (Lucy) N010 to Nackawic River #2 (Closed Lane) (Lucy) N010. All lanes closed. Activities: Be prepared to stop, Heavy and rutted, Heavy equipment working, Local detour, Loose stones, Reduced speed required, Use alternate route, Utilities maintenance work, Watch for equipment & persons working.",
+    "Reported": 1750064400,
+    "LastUpdated": 1749582107,
+    "StartDate": 1750064400,
+    "PlannedEndDate": 1790370000,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0469062853786,
+    "Longitude": -67.2429481426892,
+    "LatitudeSecondary": 46.0464582814744,
+    "LongitudeSecondary": -67.2427021876496,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "ep`xGlklyKj@UXMRM",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "ki`xGd|kyKGj@GdAe@_@}B_CeBwAiBkAw@c@{@a@_Ag@iAy@mBmBsC_DcA}@qAu@_By@iGyCiBaAgAi@c@OkAQc@AiEFu`@dAmGJcEJwDD??w@@ZxKbB`YHnAn@jMl@tITdE??RjDyGnB",
+    "DetourInstructions": [
+      "Head west on HWY-605. Go for 45 m.",
+      "Turn right onto HWY-605. Go for 2.2 km.",
+      "Turn left onto Cross Rd. Go for 978 m.",
+      "Turn right onto HWY-595. Go for 163 m.",
+      "Arrive at HWY-595."
+    ],
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "6/16/2025 6:00:00 AM-04:00:00",
+        "EndDate": "9/25/2026 6:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 880,
+    "SourceId": "4037",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-955",
+    "DirectionOfTravel": "Both",
+    "Description": "Spring Weight Restrictions on HWY-955 Both Directions near Stillman Rd. Weight Restriction: 30000kg",
+    "Reported": 1751044080,
+    "LastUpdated": 1751044176,
+    "StartDate": 1751044080,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1527072847711,
+    "Longitude": -63.9118158112619,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Spring Weight Restrictions",
+    "IsFullClosure": false,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 30000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "6/27/2025 2:08:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 912,
+    "SourceId": "4069",
+    "Organization": "ERS",
+    "RoadwayName": "Big Salmon River Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Breakup on Big Salmon River Rd Both Directions from 0.94 Km East of Little Beach Rd to Fundy Trail Pkwy. All lanes closed.",
+    "Reported": 1743511020,
+    "LastUpdated": 1751546537,
+    "StartDate": 1743511020,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.4073237134085,
+    "Longitude": -65.474721021348,
+    "LatitudeSecondary": 45.4199729820076,
+    "LongitudeSecondary": -65.4099372365057,
+    "EventType": "closures",
+    "EventSubType": "Road Breakup",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "wrctG~_snKeHyHcE{D_AeAoNsN}AwAc@YY]u@u@_@YkEeEwCaDqBwBqDeDY_@_@m@[}@}BsIi@yDa@mDi@sG[sC{@uKMkAMs@YmC_@yFo@gGOkACo@NwAJu@TqD?o@EmDBg@Ha@Vi@~@m@d@i@^_AX}@nAmEF]A_@G]a@aBWkAGe@sA{FIoBNoCr@uE?cBAaBBqCIyCO{B@wAFqAH}CHqAJ_CG_C@k@IqNPqENcKCa@AcAOqAAk@?m@LwBJ]P[z@wAVYjAcAn@q@TUP[NYp@qBZ}AL_AY{De@gJKeAAmBFgBV}EBsBE_AKWm@{@e@a@OS]s@Uw@_@w@_AeAWQmAsAc@a@IQGYQ}Am@wBOUQSQMYMw@c@m@m@[k@Gu@XiFHeAV{BHcAB{AF_@BA",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 913,
+    "SourceId": "4070",
+    "Organization": "ERS",
+    "RoadwayName": "Poirier Office Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Restrictions on Poirier Office Rd near Cocagne River #3 (Poirier) C508. All lanes closed. Activities: Impassable.",
+    "Reported": 1751553840,
+    "LastUpdated": 1751553942,
+    "StartDate": 1751553840,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.2688506977393,
+    "Longitude": -64.7964965756348,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "7/3/2025 11:44:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 921,
+    "SourceId": "4078",
+    "Organization": "ERS",
+    "RoadwayName": "Mapleton Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Under Construction on Mapleton Rd Both Directions from Queensway Dr to HWY-2 Eastbound. Lane Alternating. Activities: Be prepared to stop, Flag persons in attendance, Fresh asphalt, Heavy equipment working, One lane traffic, Watch for equipment & persons working. Expect Delays: Under 30 minutes",
+    "Reported": 1751886000,
+    "LastUpdated": 1757080272,
+    "StartDate": 1751886000,
+    "PlannedEndDate": null,
+    "LanesAffected": "Lane Alternating",
+    "Latitude": 46.1305840695413,
+    "Longitude": -64.8330403155176,
+    "LatitudeSecondary": 46.1278533420384,
+    "LongitudeSecondary": -64.8317971966477,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "c{pxGnuujK^MjBs@zCgAhEyAn@S",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "7/7/2025 8:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 981,
+    "SourceId": "4132",
+    "Organization": "ERS",
+    "RoadwayName": "Hawkshaw Brg",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on Hawkshaw Brg Both Directions from Hawkshaw Bridge Rd to Hawkshaw Bridge H385. Activities: Be prepared to stop, Flag persons in attendance, Heavy equipment working, Impassable, One lane traffic, Reduced speed required, Traffic lights present, Watch for equipment & persons working.",
+    "Reported": 1752483600,
+    "LastUpdated": 1752512642,
+    "StartDate": 1752483600,
+    "PlannedEndDate": 1766116800,
+    "LanesAffected": "No Data",
+    "Latitude": 45.9628429176676,
+    "Longitude": -67.2488055706,
+    "LatitudeSecondary": 45.9601054567128,
+    "LongitudeSecondary": -67.247223209831,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "wbpwG`pmyKfMgGxAu@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "7/14/2025 6:00:00 AM-04:00:00",
+        "EndDate": "12/19/2025 12:00:00 AM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 991,
+    "SourceId": "4149",
+    "Organization": "ERS",
+    "RoadwayName": "Lake Lands Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Traffic Flow Restriction on Lake Lands Rd at Barnaby River Bridge #6. All lanes closed. Activities: Barricades in place, Use alternate route.",
+    "Reported": 1752663600,
+    "LastUpdated": 1752598429,
+    "StartDate": 1752663600,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.7870300000001,
+    "Longitude": -65.4630799999999,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Traffic Flow Restriction",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1025,
+    "SourceId": "4180",
+    "Organization": "ERS",
+    "RoadwayName": "Caverhill Siding Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Out on Caverhill Siding Rd Both Directions at Caverhill Siding C160. All lanes closed. Activities: Use alternate route.",
+    "Reported": 1753113060,
+    "LastUpdated": 1753113526,
+    "StartDate": 1753113060,
+    "PlannedEndDate": 1910879640,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0669943813228,
+    "Longitude": -67.1899213463029,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Out",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1036,
+    "SourceId": "4191",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Under Construction on HWY-2 Eastbound near Chemin Mazerolle Settlement. Activities: Be prepared to stop, One lane traffic, Reduced speed required.",
+    "Reported": 1753203360,
+    "LastUpdated": 1753203418,
+    "StartDate": 1753203360,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.8581579925386,
+    "Longitude": -66.8351411642479,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "7/22/2025 1:56:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1109,
+    "SourceId": "4263",
+    "Organization": "ERS",
+    "RoadwayName": "Wheeler Blvd",
+    "DirectionOfTravel": "Outbound",
+    "Description": "Parade on Wheeler Blvd Outbound from Wheeler Ramp E to HWY-106. Activities: Be prepared to stop, One lane traffic.",
+    "Reported": 1763841600,
+    "LastUpdated": 1753972503,
+    "StartDate": 1763841600,
+    "PlannedEndDate": 1763856000,
+    "LanesAffected": "No Data",
+    "Latitude": 46.09581,
+    "Longitude": -64.76667,
+    "LatitudeSecondary": 46.0929097053265,
+    "LongitudeSecondary": -64.763212633513,
+    "EventType": "roadwork",
+    "EventSubType": "Parade",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "yajxGtvhjK?sBBo@B[D_@FYJ_@HWJULWPYLWN]PQNQd@_@`Au@\\S`@SDCRIt@YhAWz@SHAb@K",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Sat:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/22/2025 4:00:00 PM-04:00:00",
+        "EndDate": "11/22/2025 8:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Saturday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1265,
+    "SourceId": "4423",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-450",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on HWY-450 Both Directions from HWY-8 to HWY-445. Activities: Closed to trucks, Use alternate route.",
+    "Reported": 1756417380,
+    "LastUpdated": 1756816745,
+    "StartDate": 1756417380,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.2526756481824,
+    "Longitude": -65.3795630221183,
+    "LatitudeSecondary": 47.2303389379757,
+    "LongitudeSecondary": -65.183994003764,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "g`l_Hfm`nKwAcOmAgMa@aE_@_E[_DMuAMoAm@mGu@wHwEof@y@mIe@eFSsBCYWeCq@gHs@{H]mD[kD]qD{@yIk@_Go@_HOgBs@gHsAcOCY_@{D}@sJy@wI_AaKy@yIeAeLaAaKUeCIaAKcA]{Dg@kF[_D?EKeAAIEk@m@qGg@uFg@oF{AsPY{C_@iEe@}EY_DKkAE[e@oFSwBM{Ak@qGc@yEeBuRO}AAIGy@o@iHs@_IUmCGg@Eg@S}BO_BC_@_BeQIw@Ko@Ow@Om@K_@Oc@Uk@Yq@Uc@S]k@w@i@m@OOWSs@i@}CyBkD}ByByAwAaAs@e@gFmDyJwG{PiLwDkCoFsDoA}@pNul@tAwFhBuHzCaMpCkL~CqM`CwJbAgEr@uCJ_@fBmH|BiJjByHhAqEfCiKzF{U~@wDpHsZhDqNlI{\\f@uBnLue@`AyDJc@f@sBZoARu@HYp@oC`A_EbB_Hn@mC\\qAR{@dAgEbD{MrO}n@DQjCsKnCcLlEiQvEgRnB}HbCcKpAoFbA{DRs@Tq@Ri@Xm@Vg@\\i@Xa@RUXYp@m@~@u@bBoAhAy@~BeBxBcB`E}CtFiEfCkBnFcE~HaGvIuGnCuBdCiBhA}@hCoBxDuCzGcFtAeAxCyBvC{BxDuCbCkB",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "8/28/2025 6:43:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1277,
+    "SourceId": "4436",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-450",
+    "DirectionOfTravel": "Both",
+    "Description": "Road Restrictions on HWY-450 Both Directions from HWY-11 to HWY-445. Activities: Closed to trucks, Use alternate route.",
+    "Reported": 1756816440,
+    "LastUpdated": 1756816730,
+    "StartDate": 1756816440,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 47.2273404391312,
+    "Longitude": -65.1749523513049,
+    "LatitudeSecondary": 47.2790803426014,
+    "LongitudeSecondary": -65.2851341776455,
+    "EventType": "roadwork",
+    "EventSubType": "Road Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "{ag_HlnxlK_ExCkClBgBrAaBnArB|HbBlGh@rBNh@r@jCp@jCqEhDwEjDsCvByDtCwCzByCxBuAdA{GbFyDtCiCnBiA|@eChBoCtBwItG_I`GoFbEgCjBuFhEaE|CyBbB_CdBiAx@cBnA_At@q@l@YXSTY`@]h@Wf@Yl@Sh@Up@Sr@cAzDqAnFcCbKoB|HwEfRmEhQoCbLkCrKEPsO|n@cDzMeAfESz@]pAo@lCcB~GaA~Dq@nCIXSt@[nAg@rBKb@aAxDoLte@g@tBmIz\\iDpNqHrZ_AvD{FzUgChKiApEkBxH}BhJgBlHK^s@tCcAfEaCvJ_DpMqCjL{C`MiBtHuAvFeLte@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "9/2/2025 9:34:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1353,
+    "SourceId": "4512",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-15",
+    "DirectionOfTravel": "West",
+    "Description": "Under Construction on HWY-15 Westbound at Painsec Jct. C.N.R. Overpass (East) P050. Width Restriction: 3.8m Speed Restriction: 90km/h Activities: Heavy equipment working, One lane traffic, Ramp in place, Reduced speed required, Use local detour - weight and height restrictions may apply, Watch for equipment & persons working. Expect Delays: Under 30 minutes",
+    "Reported": 1757667600,
+    "LastUpdated": 1762975801,
+    "StartDate": 1757667600,
+    "PlannedEndDate": 1764363600,
+    "LanesAffected": "No Data",
+    "Latitude": 46.13629645311,
+    "Longitude": -64.6693365259256,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": 3.80,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": 90.00
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "9/12/2025 6:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 5:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1379,
+    "SourceId": "4538",
+    "Organization": "ERS",
+    "RoadwayName": "Brown Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Brown Rd Both Directions near East Branch St. Nicholas River #3 (Mcdonald) E210. Weight Restriction: 30000kg",
+    "Reported": 1757674980,
+    "LastUpdated": 1757675201,
+    "StartDate": 1757674980,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.5466579849124,
+    "Longitude": -64.8960739202138,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 30000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "9/12/2025 8:03:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1447,
+    "SourceId": "4607",
+    "Organization": "ERS",
+    "RoadwayName": "Brooks Bridge Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Brooks Bridge Rd Both Directions from Brooks bridge to Brook'S Bridge B732. Height Restriction: 4.2m Weight Restriction: 15000kg Speed Restriction: 50km/h",
+    "Reported": 1758016800,
+    "LastUpdated": 1758634582,
+    "StartDate": 1758016800,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.928354822054,
+    "Longitude": -67.7004398448919,
+    "LatitudeSecondary": 46.9277706665027,
+    "LongitudeSecondary": -67.697637443638,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "eul}Gvve|K|@sHj@kEHo@",
+    "Restrictions": {
+      "Width": null,
+      "Height": 4.20,
+      "Length": null,
+      "Weight": 15000.00,
+      "Speed": 50.00
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "9/16/2025 7:00:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1506,
+    "SourceId": "4670",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-116",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Grading on HWY-116 from Grey Brook Culvert #1 (Salmon River Road) KH05 to Lamb Brook #1 L083. Activities: Adjacent to road, Be prepared to stop, Brush cutting, Ditching, Fresh asphalt, Heavy equipment working, Loose stones, One lane traffic, Traffic lights present, Watch for equipment & persons working. Expect Delays: Under 30 minutes",
+    "Reported": 1759577820,
+    "LastUpdated": 1759577836,
+    "StartDate": 1759577820,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 46.332777015508,
+    "Longitude": -65.6099827524012,
+    "LatitudeSecondary": 46.3036128588736,
+    "LongitudeSecondary": -65.6887211345872,
+    "EventType": "roadwork",
+    "EventSubType": "Grading",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "{jxyGjmmoK?bA?lAA`BAfCA`B?tABhADhAHhABVFf@N|@Np@Tv@`@lAt@lBvChH^~@~@dCl@zAr@dBl@pAd@|@hAfBfBdCj@|@d@v@b@|@d@hA\\bATz@VjARfAXxB`AdIL`A`ApIf@pE`AtIBVNlANpABN\\tCBP`AjIz@pHzBbSx@`I`@vDlAxMnAjNlAdNZfDTpBN`ATfAPr@^rApAnEtArEdBxFvD~Ln@lBj@~A`@~@b@~@t@xAz@|AbHxL~@bBr@vAZt@Vt@V~@VlAZrBZ`C`@jC\\pB^jB`@dBx@|CvA`FzAvFlB|Gb@zA\\hAZ|@Vp@\\v@z@`BlDrGlF|JlYbi@pHdN`EnH",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri:</b><br/>7:00 AM - 7:00 PM<br/><br/><b>Sat, Sun:</b><br/>Paused all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/4/2025 8:37:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "07:00:00-04:00:00",
+            "EndTime": "18:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1512,
+    "SourceId": "4676",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Bridge Inspection/Maintenance on HWY-2 Eastbound near Memramcook River #5 (South) (Tch) M329. 1 Right Lane Shift Right. Width Restriction: 4.7m Speed Restriction: 70km/h Activities: One lane traffic, Reduced speed required, Watch for equipment & persons working. Visibility: Visibility reduced in fog. Expect Delays: Under 30 minutes",
+    "Reported": 1759755600,
+    "LastUpdated": 1761765227,
+    "StartDate": 1759755600,
+    "PlannedEndDate": 1764361800,
+    "LanesAffected": "1 Right Lane Shift Right",
+    "Latitude": 46.0458832866777,
+    "Longitude": -64.5670168092315,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Inspection/Maintenance",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": 4.70,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": 70.00
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/6/2025 10:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 4:30:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1523,
+    "SourceId": "4688",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-910",
+    "DirectionOfTravel": "North",
+    "Description": "Under Construction on HWY-910 Northbound from West Branch Of Turtle Creek Culvert #1 (Turtle Creek) AC11 to Route 910 Culvert #1 (Lower Turtle Creek) AC14. Lane Alternating. Activities: Adjacent to road, Heavy equipment working, One lane traffic, Reduced speed required, Traffic lights present, Use local detour - weight and height restrictions may apply, Watch for equipment & persons working. Expect Delays: Under 30 minutes",
+    "Reported": 1760004000,
+    "LastUpdated": 1763469559,
+    "StartDate": 1760004000,
+    "PlannedEndDate": 1766098800,
+    "LanesAffected": "Lane Alternating",
+    "Latitude": 45.9716686917821,
+    "Longitude": -64.8915691732068,
+    "LatitudeSecondary": 45.9697889839892,
+    "LongitudeSecondary": -64.8907238559945,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "}yqwGhcakK^KxBq@bE}AXM",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/9/2025 7:00:00 AM-04:00:00",
+        "EndDate": "12/18/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1572,
+    "SourceId": "4739",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-106",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Parade on HWY-106 from Parkin St to Smith St. All lanes closed.",
+    "Reported": 1765665000,
+    "LastUpdated": 1760971404,
+    "StartDate": 1765665000,
+    "PlannedEndDate": 1765668600,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0296928815809,
+    "Longitude": -65.0310740187921,
+    "LatitudeSecondary": 46.0266042606255,
+    "LongitudeSecondary": -65.0421458271854,
+    "EventType": "closures",
+    "EventSubType": "Parade",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "qd}wGdk|kKHZnAfEd@dBd@jBVjATnARvANrAX|B`@lDL`ARlA`@~Bl@hDlAjHXrAVhA@HNv@^tBNz@@D",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Sat:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/13/2025 6:30:00 PM-04:00:00",
+        "EndDate": "12/13/2025 7:30:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Saturday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1573,
+    "SourceId": "4740",
+    "Organization": "ERS",
+    "RoadwayName": "Douglas St",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Parade on Douglas St from Smith St to Smith St. All lanes closed.",
+    "Reported": 1765665000,
+    "LastUpdated": 1760971382,
+    "StartDate": 1765665000,
+    "PlannedEndDate": 1765668600,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0265477039028,
+    "Longitude": -65.0420577039026,
+    "LatitudeSecondary": 46.0254131845438,
+    "LongitudeSecondary": -65.0406719389544,
+    "EventType": "closures",
+    "EventSubType": "Parade",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "}p|wGzo~kK@A|EoGBC",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Sat:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "12/13/2025 6:30:00 PM-04:00:00",
+        "EndDate": "12/13/2025 7:30:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Saturday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1586,
+    "SourceId": "4753",
+    "Organization": "ERS",
+    "RoadwayName": "Urney Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Urney Rd Both Directions at Trout Creek #4 (Urney) T560. Weight Restriction: 10000kg Activities: Weight restriction 80%.",
+    "Reported": 1761308280,
+    "LastUpdated": 1761308557,
+    "StartDate": 1761308280,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.6928235233448,
+    "Longitude": -65.3977778184479,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 10000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/24/2025 9:18:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1587,
+    "SourceId": "4754",
+    "Organization": "ERS",
+    "RoadwayName": "Pleasant Ridge Branch Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Pleasant Ridge Branch Rd Both Directions at Millstream River #5 (Centreville) M492. Weight Restriction: 10000kg Activities: Weight restriction 80%.",
+    "Reported": 1761312360,
+    "LastUpdated": 1761312504,
+    "StartDate": 1761312360,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.8079530339153,
+    "Longitude": -65.5942220149745,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": 10000.00,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/24/2025 10:26:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1589,
+    "SourceId": "4756",
+    "Organization": "ERS",
+    "RoadwayName": "Robby's Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Inspection/Maintenance on Robby's Rd Both Directions from North Rusagonis #2 (Nason-Morgan) N555 to North Rusagonis #2 (Nason-Morgan) N555. All lanes closed. Expect Delays: Under 30 minutes",
+    "Reported": 1763384400,
+    "LastUpdated": 1762184316,
+    "StartDate": 1763384400,
+    "PlannedEndDate": 1764358200,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 45.834527999698,
+    "Longitude": -66.6710646966794,
+    "LatitudeSecondary": 45.8347993428053,
+    "LongitudeSecondary": -66.6708614600363,
+    "EventType": "closures",
+    "EventSubType": "Bridge Inspection/Maintenance",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "y`wvGbu|uKSOa@W",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri:</b><br/>9:00 AM - 12:00 PM<br/>1:00 PM - 3:30 PM<br/><br/><b>Sat, Sun:</b><br/>Paused all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/17/2025 9:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 3:30:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "09:00:00-04:00:00",
+            "EndTime": "11:59:59-04:00:00"
+          },
+          {
+            "StartTime": "13:00:00-04:00:00",
+            "EndTime": "15:29:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1602,
+    "SourceId": "4771",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Bridge Inspection/Maintenance on HWY-2 Eastbound near Mclaughlin Road (Rte.490) - Rte.2 Overpass (South) M249. 1 Left Lane Shift Right. Width Restriction: 4.7m Speed Restriction: 90km/h Activities: Be prepared to stop, One lane traffic, Reduced speed required, Use alternate route - weight and height restrictions may apply. Visibility: Visibility reduced in fog. Expect Delays: Under 30 minutes",
+    "Reported": 1761764940,
+    "LastUpdated": 1763635636,
+    "StartDate": 1761764940,
+    "PlannedEndDate": 1764360600,
+    "LanesAffected": "1 Left Lane Shift Right",
+    "Latitude": 46.1276096131789,
+    "Longitude": -64.7938022635775,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Inspection/Maintenance",
+    "IsFullClosure": false,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": 4.70,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": 90.00
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "10/29/2025 4:09:00 PM-04:00:00",
+        "EndDate": "11/28/2025 4:10:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1619,
+    "SourceId": "4790",
+    "Organization": "ERS",
+    "RoadwayName": "Morton Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Morton Rd Both Directions near Murray Rd. All lanes closed. Activities: Be prepared to stop, Impassable. Visibility: Visibility reduced in fog. Expect Delays: Up to 6 hours",
+    "Reported": 1762342200,
+    "LastUpdated": 1762373200,
+    "StartDate": 1762342200,
+    "PlannedEndDate": 1764964800,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 46.0190608935875,
+    "Longitude": -65.1832947840406,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": true,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri:</b><br/>7:00 AM - 5:00 PM<br/><br/><b>Sat, Sun:</b><br/>Paused all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/5/2025 7:30:00 AM-04:00:00",
+        "EndDate": "12/5/2025 4:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "07:00:00-04:00:00",
+            "EndTime": "16:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1626,
+    "SourceId": "4797",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-113",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Bridge Repair on HWY-113 from Lameque Shippagan L100 to Lameque Shippagan L100. All lanes closed. Activities: Be prepared to stop, Flag persons in attendance, Heavy equipment working, Impassable, Reduced speed required, Traffic lights present, Watch for equipment & persons working.",
+    "Reported": 1763472240,
+    "LastUpdated": 1763472478,
+    "StartDate": 1763472240,
+    "PlannedEndDate": null,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.7443298819644,
+    "Longitude": -64.6967844374744,
+    "LatitudeSecondary": 47.7511312989174,
+    "LongitudeSecondary": -64.6884015833822,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "aalbHza{iKIKcAsAoD_FoEiGeCeDoBoCqBmCmA_By@eAgC}CcFkGe@m@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Sat, Sun:</b><br/>Paused all day<br/><br/><b>Thu, Fri:</b><br/>12:00 AM - 6:00 AM<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/18/2025 9:24:00 AM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "05:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Thursday",
+          "Friday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1628,
+    "SourceId": "4799",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-132",
+    "DirectionOfTravel": "East",
+    "Description": "Bridge Repair on HWY-132 Eastbound from Scoudouc Road-Rte. 2 Underpass (East) S206 to Scoudouc Road-Rte. 2 Underpass (East) S206. Width Restriction: 4.15m Activities: Be prepared to stop, One lane traffic, Traffic lights present. Expect Delays: Under 30 minutes",
+    "Reported": 1762513620,
+    "LastUpdated": 1762513811,
+    "StartDate": 1762513620,
+    "PlannedEndDate": 1764363600,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1010583800309,
+    "Longitude": -64.6065036054547,
+    "LatitudeSecondary": 46.1010370445727,
+    "LongitudeSecondary": -64.6061597577351,
+    "EventType": "roadwork",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "sbkxGrmiiKBcA",
+    "Restrictions": {
+      "Width": 4.15,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/7/2025 7:07:00 AM-04:00:00",
+        "EndDate": "11/28/2025 5:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1630,
+    "SourceId": "4801",
+    "Organization": "ERS",
+    "RoadwayName": "Principale St",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Restrictions on Principale St Both Directions from Snowball bridge to Snowball Bridge. All lanes closed.",
+    "Reported": 1762952400,
+    "LastUpdated": 1762787257,
+    "StartDate": 1762952400,
+    "PlannedEndDate": 1796086800,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.526314380727,
+    "Longitude": -64.9087260951817,
+    "LatitudeSecondary": 47.5244256722727,
+    "LongitudeSecondary": -64.9098521939558,
+    "EventType": "closures",
+    "EventSubType": "Bridge Restrictions",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "mnaaHpndkKBAZCR@RFTJXPx@h@pAz@rBvA",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "u`aaH|vdkK_@SQp@?R\\rCLz@VtA???Bv@b@p@VpBbA`B`@nAF|Kr@r@Bp@JrAH??T@rCd@AVBPJRDDFBLTHPHX|AjKdAjHl@bE??tAfJhCxP|@rF`@hCn@pDhChPdHjf@_JtCo@Ta@RWRUXaCxD}@bA_@Xm@Zq@V[Hy@JeAAi@GqDm@mJeD??yMsE}Bu@iBi@_Ba@kGsAwJwAmAOkl@yH{`@oFkCc@uDu@sBg@sBk@ak@yQoCuAYQs@i@o@m@Y]y@kAkDqFYWQN",
+    "DetourInstructions": [
+      "Head north on Principale St. Go for 19 m.",
+      "Turn left onto Moulin St. Go for 148 m.",
+      "Turn slightly left onto Dr Victor Leblanc Blvd. Go for 664 m.",
+      "Take the 2nd exit from roundabout onto Riviere-A-la-Truite St. Go for 896 m.",
+      "Continue on Riviere-A-la-Truite Rd. Go for 855 m.",
+      "Turn right and take ramp onto Acadian Coastal Dr (HWY-11 N) toward RTE-11 N/Caraquet. Go for 4.4 km.",
+      "Take ramp toward HWY-150/HWY-160/Tracadie-Sheila Centre/Rue Principale/Principale St/Saint-Isidore. Go for 378 m.",
+      "Turn left onto Principale St (HWY-150). Go for 12 m.",
+      "Arrive at Principale St (HWY-150). Your destination is on the right."
+    ],
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/12/2025 9:00:00 AM-04:00:00",
+        "EndDate": "11/30/2026 9:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1634,
+    "SourceId": "4805",
+    "Organization": "ERS",
+    "RoadwayName": "Saddleback Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Under Construction on Saddleback Rd Both Directions from HWY-111 to Tunney Rd. Activities: One lane traffic.",
+    "Reported": 1762858800,
+    "LastUpdated": 1762544080,
+    "StartDate": 1762858800,
+    "PlannedEndDate": 1764277200,
+    "LanesAffected": "No Data",
+    "Latitude": 45.5441239796587,
+    "Longitude": -65.5428437253916,
+    "LatitudeSecondary": 45.5324931560151,
+    "LongitudeSecondary": -65.5130630496241,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": "wi~tGvi`oK?IJuANeEG_MGiA?}@FmAJw@^}AV{@Ri@d@y@PQbAyApA{Af@}@b@gAn@oBT}@Fo@d@qCVcAZcAj@iAn@iAlAiBv@iAr@u@r@_ARa@Tg@hCkHx@wBhAeF`AgFFg@F}CBi@RcBb@_ClAyEdAaCz@}A~CuEv@u@^e@Xa@j@wAx@kCPa@`@u@JMh@iAd@y@r@}Ah@cB~@yDx@uDXsA?eALU",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/11/2025 7:00:00 AM-04:00:00",
+        "EndDate": "11/27/2025 5:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1636,
+    "SourceId": "4807",
+    "Organization": "ERS",
+    "RoadwayName": "Rang 5 Rd",
+    "DirectionOfTravel": "Both",
+    "Description": "Bridge Repair on Rang 5 Rd Both Directions near Fawbo Rd. All lanes closed. Activities: Impassable, Local detour, Use local detour - weight and height restrictions may apply.",
+    "Reported": 1753696800,
+    "LastUpdated": 1762780786,
+    "StartDate": 1753696800,
+    "PlannedEndDate": 1765580400,
+    "LanesAffected": "All lanes closed",
+    "Latitude": 47.4098395148386,
+    "Longitude": -68.1854394178062,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "closures",
+    "EventSubType": "Bridge Repair",
+    "IsFullClosure": true,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "wwj`Hhpd_Lg@nAm@hAa@h@g@Z_ARg@?m@YyCuB??k@a@w@s@u@aAkBwC[q@Um@{@oD_@mA]w@g@u@m@m@{CyB{DyC]_@Q]Ie@Fm@`BoG`@uA\\}@Ve@TYb@q@z@_@dAQr@Cv@Q|F}AvC_AdQ_FvLoDtFsAf@QpUuKb@YjAo@fAw@fAaA`@c@hB}Az@i@t@E\\FXLb@n@`AfA\\Tx@Hd@Ad@OlFgC~BsAfB}@jBeAdAs@xA{ALS??fCqDfAmAnEkDxFgEbAkAhBiCvD_H~@mA`Aw@rB}@pBg@vDc@tAShA[n@[`E}CnD{Bv@y@r@_Ar@iAl@s@v@o@rCaBjA}@~CcEn@o@f@_@nAs@zAw@tMoJ~@e@\\An@OxAm@n@Ql@UjDiAvBq@hAY??jAY~Ai@v@[ZIfAc@POR[LqCJkALu@Z}@Tc@hCqCxDuE`A{@zEaD|AcAt@]j@IlCJlB@fBG`BOpAWbAB~@YrGiFtEiEbBwAdCiBbAo@VS\\]p@y@tCuEvAcBh@e@x@k@vBiAbDyBr@_@d@Q`EcAt@Y|@c@p@c@z@o@fDqCbCyBjBgBpAgAfGqFzC{CpAiAf@_@hFaCr@Un@Gh@AtA@vM]nBBl@BvHp@lIx@fMj@vK`@X|K??Bv@JjEuFPsCAmLKsAO{B]mDeA??OEyIqCqA]iAQeBKiB@yF`AcB`@y@\\m@d@c@j@_CxE]f@sHfJeBzBc@`@k@b@i@XsJnEeLpFaGfCaAh@o@d@m@h@k@n@wGjJgDpEi@n@q@l@yHjG}OlNq@jAsG~FeEzC]\\aMbIsDdCgCxA_Al@aAh@aBh@{P|DkIzAQPE^BZRZjSdPfCfCp@|@Th@Jd@Bl@EbA_@lBgBtGIr@?v@Fr@Lj@Zv@nB|Dx@hC`A~DXzADV??TbB`AnJXjAb@rA`A|Br@tBXnAd@xDBxBA\\Oz@gBfHsCvJuCfJe@bBUpAUrBSlDMzCoAtMuA`PUjAg@|Aq@xAW^c@`@m@^_CjAqAz@eD|C}MrLkDpCwAnAa@d@k@|@S`@aBvE]pAa@jBqAdHu@tCiE~LgAzDObAGhAAr@BpANpDB~AS[}C}BaMsJ_WqSwRsOqIeIi@q@aAeBQe@YiAIk@Cc@CmADgAd@cEF_BCoAI_A]cBoAyEk@gCk@cDQs@Qe@Yk@q@q@}BaBUUmBaCk@c@}AcAaJmHkCiBk@c@s@]g@Ee@Hk@`@_@`@gBtCY^q@j@g@NgAJuH`@qA@sBAyAIoC[iGgAi@C_@D_@T]b@i@jAe@lAm@hAa@h@g@Z_ARg@?",
+    "DetourInstructions": [
+      "Head toward Riviere Verte Rd on Rang 5 Rd. Go for 1.0 km.",
+      "Turn slightly right onto Riviere Verte Rd. Go for 10.2 km.",
+      "Turn right onto Riviere Quisibis Rd. Go for 256 m.",
+      "Turn right onto Davis Rd. Go for 4.4 km.",
+      "Continue on Davis Rd. Go for 662 m.",
+      "Turn slightly left onto 3 Rang Rd. Go for 4.7 km.",
+      "Turn sharp right onto C Theriault Rd. Go for 2.8 km.",
+      "Continue on Rang 5 Rd. Go for 1.2 km.",
+      "Arrive at Rang 5 Rd."
+    ],
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "7/28/2025 7:00:00 AM-04:00:00",
+        "EndDate": "12/12/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1647,
+    "SourceId": "4818",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-128",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Under Construction on ramp from HWY-128 to Pacific Junction Rd. Activities: Adjacent to road.",
+    "Reported": 1762945200,
+    "LastUpdated": 1763124617,
+    "StartDate": 1762945200,
+    "PlannedEndDate": 1764370800,
+    "LanesAffected": "No Data",
+    "Latitude": 46.10977,
+    "Longitude": -64.93857,
+    "LatitudeSecondary": 46.1107036500416,
+    "LongitudeSecondary": -64.9369908937032,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "Aucun",
+    "Comment": null,
+    "EncodedPolyline": "aylxG`ijkKa@a@UO_@c@c@uAOq@So@Qc@OQu@c@i@Sq@MqAa@}A{@",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/12/2025 7:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1648,
+    "SourceId": "4819",
+    "Organization": "ERS",
+    "RoadwayName": "Homestead Rd",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Under Construction on ramp from Homestead Rd to HWY-128. Activities: Adjacent to road.",
+    "Reported": 1762945200,
+    "LastUpdated": 1763124634,
+    "StartDate": 1762945200,
+    "PlannedEndDate": 1764370800,
+    "LanesAffected": "No Data",
+    "Latitude": 46.10765,
+    "Longitude": -64.9382699999999,
+    "LatitudeSecondary": 46.1083970342252,
+    "LongitudeSecondary": -64.936816273801,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "Aucun",
+    "Comment": null,
+    "EncodedPolyline": "yklxGdgjkKcAwAcAoBI_@Cu@B_@Rs@R]b@Wx@QlBQ",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/12/2025 7:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1649,
+    "SourceId": "4820",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-128",
+    "DirectionOfTravel": "Unknown",
+    "Description": "Under Construction on HWY-128 from Christie Rd to Chemin Homestead. Activities: Adjacent to road.",
+    "Reported": 1762945200,
+    "LastUpdated": 1763124649,
+    "StartDate": 1762945200,
+    "PlannedEndDate": 1764370800,
+    "LanesAffected": "No Data",
+    "Latitude": 46.1070682469432,
+    "Longitude": -64.9367196821598,
+    "LatitudeSecondary": 46.1072813051445,
+    "LongitudeSecondary": -64.9344280576305,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "Aucun",
+    "Comment": null,
+    "EncodedPolyline": "ehlxGn}ikKCw@M}ACu@S}F",
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/12/2025 7:00:00 AM-04:00:00",
+        "EndDate": "11/28/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1656,
+    "SourceId": "4827",
+    "Organization": "ERS",
+    "RoadwayName": "Lavigne St",
+    "DirectionOfTravel": "Both",
+    "Description": "Shoulder Repair on Lavigne St Both Directions at Lavigne Street-Rte. 11 Underpass L142.",
+    "Reported": 1763379000,
+    "LastUpdated": 1763390860,
+    "StartDate": 1763379000,
+    "PlannedEndDate": 1764361800,
+    "LanesAffected": "No Data",
+    "Latitude": 47.7546855564766,
+    "Longitude": -65.025325654853,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "accidentsAndIncidents",
+    "EventSubType": "Shoulder Repair",
+    "IsFullClosure": false,
+    "Severity": "Minor",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "",
+    "RecurrenceSchedules": "",
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1662,
+    "SourceId": "4833",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-1",
+    "DirectionOfTravel": "East",
+    "Description": "Paving on HWY-1 Eastbound near roadway marker 146. Activities: Be prepared to stop, One lane traffic, Reduced speed required.",
+    "Reported": 1763473320,
+    "LastUpdated": 1763741869,
+    "StartDate": 1763473320,
+    "PlannedEndDate": 1763847720,
+    "LanesAffected": "No Data",
+    "Latitude": 45.4300832585655,
+    "Longitude": -65.8933722096016,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Paving",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Tue, Wed, Thu, Fri, Sat:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/18/2025 9:42:00 AM-04:00:00",
+        "EndDate": "11/22/2025 5:42:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1672,
+    "SourceId": "4843",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Under Construction on HWY-2 Eastbound near roadway marker 13.0. Activities: Be prepared to stop, One lane traffic, Reduced speed required.",
+    "Reported": 1763639700,
+    "LastUpdated": 1763639769,
+    "StartDate": 1763639700,
+    "PlannedEndDate": 1765062000,
+    "LanesAffected": "No Data",
+    "Latitude": 47.3998225472212,
+    "Longitude": -68.3614218130418,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/20/2025 7:55:00 AM-04:00:00",
+        "EndDate": "12/6/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1673,
+    "SourceId": "4844",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "West",
+    "Description": "Under Construction on HWY-2 Westbound near roadway marker 17.0. Activities: Be prepared to stop, One lane traffic, Reduced speed required.",
+    "Reported": 1763639760,
+    "LastUpdated": 1763639801,
+    "StartDate": 1763639760,
+    "PlannedEndDate": 1765022160,
+    "LanesAffected": "No Data",
+    "Latitude": 47.3863600470821,
+    "Longitude": -68.3337258390337,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/20/2025 7:56:00 AM-04:00:00",
+        "EndDate": "12/6/2025 7:56:00 AM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1674,
+    "SourceId": "4845",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Under Construction on HWY-2 Eastbound near roadway marker 301. Activities: Adjacent to road, Watch for equipment & persons working.",
+    "Reported": 1763675340,
+    "LastUpdated": 1763675438,
+    "StartDate": 1763675340,
+    "PlannedEndDate": null,
+    "LanesAffected": "No Data",
+    "Latitude": 45.8434828665907,
+    "Longitude": -66.5131015986323,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Wed, Thu, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/20/2025 5:49:00 PM-04:00:00",
+        "EndDate": null,
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  },
+  {
+    "ID": 1675,
+    "SourceId": "4846",
+    "Organization": "ERS",
+    "RoadwayName": "HWY-2",
+    "DirectionOfTravel": "East",
+    "Description": "Under Construction on HWY-2 Eastbound near roadway marker 403. Activities: Be prepared to stop, One lane traffic, Reduced speed required.",
+    "Reported": 1763741580,
+    "LastUpdated": 1763756025,
+    "StartDate": 1763741580,
+    "PlannedEndDate": 1764111600,
+    "LanesAffected": "No Data",
+    "Latitude": 45.9461186128348,
+    "Longitude": -65.3829632574299,
+    "LatitudeSecondary": null,
+    "LongitudeSecondary": null,
+    "EventType": "roadwork",
+    "EventSubType": "Under Construction",
+    "IsFullClosure": false,
+    "Severity": "None",
+    "Comment": null,
+    "EncodedPolyline": null,
+    "Restrictions": {
+      "Width": null,
+      "Height": null,
+      "Length": null,
+      "Weight": null,
+      "Speed": null
+    },
+    "DetourPolyline": "",
+    "DetourInstructions": "",
+    "Recurrence": "<b>Mon, Tue, Fri, Sat, Sun:</b><br/>Active all day<br/><br/>",
+    "RecurrenceSchedules": [
+      {
+        "StartDate": "11/21/2025 12:13:00 PM-04:00:00",
+        "EndDate": "11/25/2025 7:00:00 PM-04:00:00",
+        "Times": [
+          {
+            "StartTime": "00:00:00-04:00:00",
+            "EndTime": "23:59:59-04:00:00"
+          }
+        ],
+        "DaysOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    ],
+    "downloaded_at": "2025-11-22T15:30:16Z"
+  }
+]

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "24_hour_spots_20250911",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lat": 46.76187, "lon": -68.02391, "rep_date": "2025-09-10T17:56:00Z", "source": "NASA7", "sensor": "VIIRS-I", "satellite": "NOAA-20", "agency": "UME", "temp": 21, "rh": 50, "ws": 14.8, "wd": 200, "pcp": 0, "ffmc": 86.8, "dmc": 14.6, "dc": 212.4, "isi": 5.7, "bui": 24.9, "fwi": 10, "fuel": "farm", "ros": 6.146585, "sfc": 0.1, "tfc": 0.1, "bfc": 0.1, "hfi": 184, "cfb": 0, "age": 12, "pcuring": 75, "greenup": 1, "elev": 197, "ecozone": "8", "sfl": 0.04437283, "cfl": 0.0, "frp": 14.81, "estarea": 16.006657, "pconif": 0 }, "geometry": { "type": "Point", "coordinates": [ -68.02391052, 46.76187134 ] } },
+{ "type": "Feature", "properties": { "lat": 46.7542, "lon": -68.02763, "rep_date": "2025-09-10T19:00:00Z", "source": "NASA_usa", "sensor": "MODIS", "satellite": "Aqua", "agency": "UME", "temp": 21, "rh": 50, "ws": 14.8, "wd": 200, "pcp": 0, "ffmc": 86.8, "dmc": 14.6, "dc": 212.4, "isi": 5.7, "bui": 24.9, "fwi": 10, "fuel": "farm", "ros": 6.146585, "sfc": 0.8567555, "tfc": 0.8567555, "bfc": 0.8567555, "hfi": 1580, "cfb": 0, "age": 11, "pcuring": 75, "greenup": 1, "elev": 179, "ecozone": "8", "sfl": 0.8567555, "cfl": 0.6598801, "frp": 11.1, "estarea": 16.006657, "pconif": 0 }, "geometry": { "type": "Point", "coordinates": [ -68.02763367, 46.75419998 ] } }
+]
+}

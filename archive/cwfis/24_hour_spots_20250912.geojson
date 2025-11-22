@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "24_hour_spots_20250912",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lat": 45.59289, "lon": -65.74792, "rep_date": "2025-09-12T13:59:00Z", "source": "NASA_usa", "sensor": "MODIS", "satellite": "Terra", "agency": "NB", "temp": 17.6, "rh": 42, "ws": 9.61, "wd": 157, "pcp": 0, "ffmc": 89.246, "dmc": 38.727, "dc": 510.648, "isi": 6.243, "bui": 65.11, "fwi": 18.15, "fuel": "M2_50", "ros": 3.876, "sfc": 1.84, "tfc": 1.84, "bfc": 6.006458, "hfi": 2140, "cfb": 0, "age": 4, "pcuring": 39, "greenup": 1, "elev": 17, "ecozone": "7", "sfl": null, "cfl": 0.3649394, "frp": 5.09, "estarea": 5.3693185, "pconif": 50 }, "geometry": { "type": "Point", "coordinates": [ -65.74791718, 45.59289169 ] } },
+{ "type": "Feature", "properties": { "lat": 45.59452, "lon": -65.76155, "rep_date": "2025-09-12T13:59:00Z", "source": "NASA_usa", "sensor": "MODIS", "satellite": "Terra", "agency": "NB", "temp": 17.6, "rh": 42, "ws": 9.61, "wd": 157, "pcp": 0, "ffmc": 89.246, "dmc": 38.727, "dc": 510.648, "isi": 6.243, "bui": 65.11, "fwi": 18.15, "fuel": "M2_50", "ros": 3.876, "sfc": 1.84, "tfc": 1.84, "bfc": 6.006458, "hfi": 2140, "cfb": 0, "age": 4, "pcuring": 41, "greenup": 1, "elev": 45, "ecozone": "7", "sfl": null, "cfl": 0.35356018, "frp": 5.06, "estarea": 5.3693185, "pconif": 50 }, "geometry": { "type": "Point", "coordinates": [ -65.7615509, 45.59452057 ] } }
+]
+}

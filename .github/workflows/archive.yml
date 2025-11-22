@@ -1,0 +1,382 @@
+name: Daily Fire Data Archive
+
+on:
+  schedule:
+    - cron: "10 9 * * *"   # daily (GitHub Actions runs cron in UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fire-archive-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: |
+          set -xeuo pipefail
+          python -m pip install --upgrade pip
+          pip install geopandas requests shapely
+
+      - name: Download and write files (verbose, preserve all ERD fields)
+        env:
+          PYTHONUNBUFFERED: "1"        # unbuffered logs
+        shell: bash
+        run: |
+          set -xeuo pipefail
+          python -u <<'PYCODE'
+          import os, sys, time, json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          import requests
+          import geopandas as gpd
+
+          def log(msg): print(msg, flush=True)
+
+          # --- Date / output (ATLANTIC time) ---
+          ATL = ZoneInfo("America/Moncton")
+          today_str = datetime.now(ATL).strftime("%Y%m%d")
+          archived_stamp = datetime.now(ATL).strftime("%Y-%m-%d %H:%M:%S %Z")
+
+          ROOT = "archive"
+          FOLDERS = {"cwfis": os.path.join(ROOT, "cwfis"),
+                     "erd":   os.path.join(ROOT, "erd")}
+          for p in FOLDERS.values():
+              os.makedirs(p, exist_ok=True)
+
+          # --- New Brunswick bbox (WGS84) ---
+          NB_BBOX = (-69.05, 44.56, -63.70, 48.07)  # minx, miny, maxx, maxy
+          log(f"[CFG] NB_BBOX={NB_BBOX}")
+
+          # --- HTTP session ---
+          S = requests.Session()
+          S.headers.update({
+              "User-Agent": "nb-fire-archive/1.2 (github actions)",
+              "Accept": "application/json, application/geo+json;q=0.9, */*;q=0.8",
+          })
+          TIMEOUT=90
+
+          # ---------- Helpers ----------
+          def fetch_once(label, base, params, retries=3, backoff=0.75):
+              last_err = None
+              for attempt in range(1, retries+1):
+                  try:
+                      req = S.prepare_request(requests.Request("GET", base, params=params))
+                      log(f"[REQ] {label} (try {attempt}/{retries}): {req.method} {req.url}")
+                      r = S.send(req, timeout=TIMEOUT)
+                      ctype = (r.headers.get('content-type') or '').lower()
+                      size = len(r.content)
+                      log(f"[RES] {label}: status={r.status_code} type={ctype} bytes={size}")
+                      r.raise_for_status()
+                      try:
+                          if size == 0:
+                              log(f"[WARN] {label}: empty body; treating as empty object")
+                              return {}
+                          return r.json()
+                      except ValueError as je:
+                          log(f"[WARN] {label}: JSON parse failed ({je}); first 200 bytes: {r.content[:200]!r}")
+                          return {}
+                  except Exception as e:
+                      last_err = e
+                      log(f"[WARN] {label}: request error: {e}")
+                      time.sleep(backoff * attempt)
+              raise last_err
+
+          def empty_gdf():
+              return gpd.GeoDataFrame(geometry=[], crs="EPSG:4326")
+
+          def esri_feature_to_geojson_feature(f):
+              attrs = f.get("attributes", {}) or {}
+              geom = f.get("geometry")
+              if geom is None:
+                  gj_geom = None
+              else:
+                  if "x" in geom and "y" in geom:  # Point
+                      gj_geom = {"type": "Point", "coordinates": [geom["x"], geom["y"]]}
+                  elif "points" in geom:  # Multipoint
+                      gj_geom = {"type": "MultiPoint", "coordinates": geom["points"]}
+                  elif "paths" in geom:  # Polyline
+                      paths = geom["paths"] or []
+                      gj_geom = {"type": "LineString", "coordinates": paths[0]} if len(paths)==1 \
+                               else {"type": "MultiLineString", "coordinates": paths}
+                  elif "rings" in geom:  # Polygon
+                      rings = geom["rings"] or []
+                      gj_geom = {"type": "Polygon", "coordinates": [rings[0]]} if len(rings)==1 \
+                               else {"type": "MultiPolygon", "coordinates": [[r] for r in rings]}
+                  else:
+                      gj_geom = None
+              return {"type": "Feature", "geometry": gj_geom, "properties": attrs}
+
+          def esri_to_geojson(esri_obj):
+              features = (esri_obj or {}).get("features", []) or []
+              gj_feats = [esri_feature_to_geojson_feature(f) for f in features]
+              return {"type": "FeatureCollection", "features": gj_feats}
+
+          def to_gdf_from_geojson_obj(gj_obj):
+              feats = (gj_obj or {}).get("features", []) or []
+              if not feats:
+                  return empty_gdf()
+              return gpd.GeoDataFrame.from_features(feats, crs="EPSG:4326")
+
+          def write_fc(path: str, fc: dict):
+              """
+              Always rewrite the file and include an 'archived_at' field so today's
+              files change even if upstream data is identical. This lets you manually update.
+              """
+              os.makedirs(os.path.dirname(path), exist_ok=True)
+              fc = dict(fc or {})
+              fc["archived_at"] = archived_stamp
+              with open(path, "w", encoding="utf-8") as f:
+                  json.dump(fc, f, ensure_ascii=False)
+                  f.write("\n")
+
+          # ---------- Builders ----------
+          def cwfis_builder(type_name: str):
+              base = "https://cwfis.cfs.nrcan.gc.ca/geoserver/public/ows"
+              bbox = f"{NB_BBOX[0]},{NB_BBOX[1]},{NB_BBOX[2]},{NB_BBOX[3]},EPSG:4326"
+              params_bbox = {
+                  "service": "WFS", "version": "1.0.0", "request": "GetFeature",
+                  "typeName": type_name, "srsName": "EPSG:4326",
+                  "bbox": bbox, "outputFormat": "application/json",
+              }
+              params_cql = {
+                  "service": "WFS", "version": "1.0.0", "request": "GetFeature",
+                  "typeName": type_name, "srsName": "EPSG:4326",
+                  "CQL_FILTER": f"BBOX(the_geom,{NB_BBOX[0]},{NB_BBOX[1]},{NB_BBOX[2]},{NB_BBOX[3]})",
+                  "outputFormat": "application/json",
+              }
+              return ("CWFIS", base, [params_bbox, params_cql])
+
+          def erd_builder(layer_idx: int):
+              base = f"https://gis-erd-der.gnb.ca/arcgis/rest/services/Fire_Dashboards/Public_Fires/MapServer/{layer_idx}/query"
+              params_env = {
+                  "where": "1=1",
+                  "geometryType": "esriGeometryEnvelope",
+                  "geometry": f"{NB_BBOX[0]},{NB_BBOX[1]},{NB_BBOX[2]},{NB_BBOX[3]}",
+                  "inSR": 4326,
+                  "spatialRel": "esriSpatialRelIntersects",
+                  "outFields": "*",
+                  "returnGeometry": "true",
+                  "outSR": 4326,
+                  "f": "json",
+                  "resultRecordCount": 2000,
+                  "returnExceededLimitFeatures": "true",
+              }
+              params_all = {
+                  "where": "1=1",
+                  "outFields": "*",
+                  "returnGeometry": "true",
+                  "outSR": 4326,
+                  "f": "json",
+                  "resultRecordCount": 2000,
+                  "returnExceededLimitFeatures": "true",
+              }
+              return ("ERD", base, [params_env, params_all])
+
+          def erd_custom_builder(base_url: str):
+              params_env = {
+                  "where": "1=1",
+                  "geometryType": "esriGeometryEnvelope",
+                  "geometry": f"{NB_BBOX[0]},{NB_BBOX[1]},{NB_BBOX[2]},{NB_BBOX[3]}",
+                  "inSR": 4326,
+                  "spatialRel": "esriSpatialRelIntersects",
+                  "outFields": "*",
+                  "returnGeometry": "true",
+                  "outSR": 4326,
+                  "f": "json",
+                  "resultRecordCount": 2000,
+                  "returnExceededLimitFeatures": "true",
+              }
+              params_all = {
+                  "where": "1=1",
+                  "outFields": "*",
+                  "returnGeometry": "true",
+                  "outSR": 4326,
+                  "f": "json",
+                  "resultRecordCount": 2000,
+                  "returnExceededLimitFeatures": "true",
+              }
+              return ("ERD", base_url, [params_env, params_all])
+
+          DATASETS = [
+              {"key": "24_hour_spots",   "group": "cwfis", "builder": lambda: cwfis_builder("public:hotspots_last24hrs")},
+              {"key": "fire_perimeters", "group": "cwfis", "builder": lambda: cwfis_builder("public:m3_polygons_current")},
+              {"key": "active_fires",    "group": "erd",   "builder": lambda: erd_builder(0)},
+              {"key": "out_fires",       "group": "erd",   "builder": lambda: erd_builder(1)},
+              {"key": "fire_locations",  "group": "erd",   "builder": lambda: erd_custom_builder(
+                  "https://gis-erd-der.gnb.ca/gisserver/rest/services/New_Brunswick_Fires/New_Brunswick_Fire_Locations/FeatureServer/0/query"
+              )},
+          ]
+
+          # ---------- Fetch with fallbacks ----------
+          def fetch_esri_with_paging(base, params):
+              all_feats = []
+              offset = 0
+              attempts = 0
+              while True:
+                  attempts += 1
+                  params_page = dict(params)
+                  params_page["resultOffset"] = offset
+                  obj = fetch_once(f"ERD page offset={offset}", base, params_page)
+                  if isinstance(obj, dict) and obj.get("error"):
+                      raise RuntimeError(f"Server error: {obj['error']}")
+                  feats = (obj or {}).get("features", []) or []
+                  all_feats.extend(feats)
+                  log(f"[INFO] ERD page offset={offset}: +{len(feats)} (total={len(all_feats)})")
+                  if len(feats) < int(params.get("resultRecordCount", 2000)):
+                      obj["features"] = all_feats
+                      return obj
+                  offset += len(feats)
+                  if attempts > 50:
+                      log("[WARN] paging attempts exceeded safeguard; stopping.")
+                      obj["features"] = all_feats
+                      return obj
+
+          def fetch_geojson_with_fallbacks(source_label, base, params_list):
+              last_obj = {}
+              for idx, params in enumerate(params_list, 1):
+                  try:
+                      obj = fetch_once(f"{source_label} try{idx}", base, params)
+                  except Exception as e:
+                      log(f"[WARN] {source_label} try{idx}: request failed ({e}); trying next variant")
+                      continue
+                  n = len((obj or {}).get("features", []) or [])
+                  log(f"[INFO] {source_label} try{idx}: features={n}")
+                  last_obj = obj or {}
+                  if n > 0:
+                      return obj
+              return last_obj
+
+          def consensus_download(builder, label, max_rounds=5, samples=3):
+              for attempt in range(1, max_rounds + 1):
+                  counts, frames = [], []
+                  log(f"[ROUND] {label}: attempt {attempt}/{max_rounds}")
+                  src_label, base, variants = builder()
+
+                  for i in range(samples):
+                      if src_label == "ERD":
+                          esri_obj = None
+                          for vidx, p in enumerate(variants, 1):
+                              esri_obj = fetch_esri_with_paging(base, p)
+                              n_try = len((esri_obj or {}).get("features", []) or [])
+                              log(f"[INFO] {label} ERD var{vidx}: features={n_try}")
+                              if n_try > 0:
+                                  break
+                          gj_obj = esri_to_geojson(esri_obj or {})
+                          gdf = to_gdf_from_geojson_obj(gj_obj)
+                      else:
+                          obj = fetch_geojson_with_fallbacks(f"{label} copy{i+1}/{samples}", base, variants)
+                          feats = (obj or {}).get("features", []) or []
+                          gdf = empty_gdf() if not feats else gpd.GeoDataFrame.from_features(feats, crs="EPSG:4326")
+
+                      counts.append(len(gdf))
+                      frames.append(gdf)
+                      log(f"[INFO] {label}: received_features={len(gdf)}")
+                      time.sleep(0.25)
+
+                  if len(set(counts)) == 1:
+                      log(f"[OK] {label}: consensus n={counts[0]}")
+                      return frames[0]
+                  log(f"[WARN] {label}: mismatch counts {counts}, retrying…")
+                  time.sleep(1.0)
+
+              from collections import Counter
+              c = Counter(counts)
+              n, _ = c.most_common(1)[0]
+              idx = counts.index(n)
+              log(f"[WARN] {label}: using majority sample n={n}")
+              return frames[idx]
+
+          # ---------- Run (always rewrite files) ----------
+          def write_empty_geojson(path: str):
+              write_fc(path, {"type": "FeatureCollection", "features": []})
+
+          failures = []
+          for ds in DATASETS:
+              label = f"{ds['group']}/{ds['key']}"
+              try:
+                  gdf = consensus_download(ds["builder"], label)
+                  out_dir = FOLDERS[ds['group']]
+                  out_path = os.path.join(out_dir, f"{ds['key']}_{today_str}.geojson")
+                  if os.path.exists(out_path):
+                      os.remove(out_path)  # ensure replacement
+
+                  if gdf is None or len(gdf) == 0:
+                      write_empty_geojson(out_path)
+                      log(f"[SAVED] {out_path} (0 features; wrote empty FeatureCollection)")
+                  else:
+                      # Turn GeoDataFrame into a GeoJSON dict, then stamp and write.
+                      fc = json.loads(gdf.to_json())
+                      write_fc(out_path, fc)
+                      log(f"[SAVED] {out_path} ({len(gdf)} features)")
+              except Exception as e:
+                  failures.append((label, str(e)))
+                  log(f"[ERROR] {label}: {e}")
+
+          if failures:
+              log("---- FAILURES ----")
+              for lbl, err in failures:
+                  log(f" - {lbl}: {err}")
+              sys.exit(1)
+          PYCODE
+
+      - name: Commit and push changes (rebase & retry)
+        if: success()
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          set -xeuo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git config rebase.autoStash true
+
+          git fetch origin "$BRANCH_NAME"
+          git checkout "$BRANCH_NAME"
+          git pull --rebase origin "$BRANCH_NAME"
+
+          mkdir -p archive/cwfis archive/erd
+          touch archive/.gitkeep
+          git add -A archive
+
+          if ! git diff --cached --quiet; then
+            ATLANTIC_TS="$(TZ=America/Moncton date +"%Y/%m/%d %I:%M %p")"
+            git commit -m "Archived ${ATLANTIC_TS}"
+            for i in 1 2 3 4 5; do
+              if git push origin "HEAD:$BRANCH_NAME"; then
+                exit 0
+              fi
+              echo "Push failed (attempt $i). Rebasing & retrying…"
+              git fetch origin "$BRANCH_NAME"
+              git pull --rebase origin "$BRANCH_NAME" || true
+              sleep 2
+            done
+            echo "Giving up after 5 attempts."
+            exit 1
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Upload archive artifact (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: geojson-archive
+          path: archive/**/*.geojson
+          if-no-files-found: ignore

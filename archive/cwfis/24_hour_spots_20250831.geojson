@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "24_hour_spots_20250831",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "lat": 46.437763, "lon": -67.48871, "rep_date": "2025-08-31T02:21:43Z", "source": "Eumetsat", "sensor": "SLSTR", "satellite": "S3A", "agency": "NB", "temp": 18.07, "rh": 73, "ws": 9.19, "wd": 137, "pcp": 0.605, "ffmc": 63.001, "dmc": 18.094, "dc": 346.063, "isi": 0.768, "bui": 32, "fwi": 0.95, "fuel": "D2", "ros": 0, "sfc": 0, "tfc": 0, "bfc": 6.2594485, "hfi": 0, "cfb": 0, "age": 7, "pcuring": 32, "greenup": 1, "elev": 242, "ecozone": "7", "sfl": null, "cfl": 0.07241608, "frp": 8.360732, "estarea": 1.793169, "pconif": 0 }, "geometry": { "type": "Point", "coordinates": [ -67.4887085, 46.43776321 ] } }
+]
+}

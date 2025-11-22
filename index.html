@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>nbfiremap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+
+  <!-- Fonts / Leaflet / Plugins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+  <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/svgs/solid/fire.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map" aria-label="Interactive wildfire map"></div>
+
+  <!-- Smoke timeline controls -->
+  <div id="smokeControls" aria-live="polite">
+    <div class="sc-top">
+      <button id="smokePlay" type="button" title="Play/Pause" aria-label="Play animation">▶</button>
+      <input id="smokeTime" type="range" min="0" max="0" value="0" step="1" aria-label="Smoke time slider" />
+    </div>
+    <div class="sc-bottom">
+      <span id="smokeLabel">Wildfire Smoke</span><span class="dot-sep">•</span><span id="smokeTimestamp">Loading…</span>
+    </div>
+  </div>
+
+  
+  <!-- CWFIS: Fire Risk controls (inline under “Fire Risk”) -->
+  <div id="riskControls" class="cwfis-controls" aria-live="polite">
+    <div class="cwfis-top">
+      <label for="riskTime">Date</label>
+      <span class="cwfis-spacer"></span>
+      <span class="cwfis-stamp" id="riskStamp">Loading…</span>
+    </div>
+
+  <div class="cwfis-row">
+    <button id="riskPlay" class="cwfis-play" type="button" title="Play/Pause" aria-label="Play Fire Risk animation">▶</button>
+    <input id="riskTime" class="cwfis-time" type="range" min="0" max="0" value="0" step="1" aria-label="Fire Risk date slider" />
+  </div>
+
+    <div class="cwfis-legend">
+      <span>Legend:</span><img id="riskLegend" alt="Fire Danger legend" />
+    </div>
+    <div id="riskErr" class="cwfis-err">Layer for this date may be unavailable.</div>
+  </div>
+
+  <!-- CWFIS: Fire Weather controls (inline under “Fire Weather”) -->
+  <div id="fwiControls" class="cwfis-controls" aria-live="polite">
+    <div class="cwfis-top">
+      <label for="fwiComp">Metric</label>
+      <select id="fwiComp" class="cwfis-select" aria-label="FWI component">
+          <option value="fwi"  data-short="FWI"  data-long="Fire Weather Index (FWI)">Fire Weather Index (FWI)</option>
+  <option value="ffmc" data-short="FFMC" data-long="Fine Fuel Moisture Code (FFMC)">Fine Fuel Moisture Code (FFMC)</option>
+  <option value="dmc"  data-short="DMC"  data-long="Duff Moisture Code (DMC)">Duff Moisture Code (DMC)</option>
+  <option value="dc"   data-short="DC"   data-long="Drought Code (DC)">Drought Code (DC)</option>
+  <option value="isi"  data-short="ISI"  data-long="Initial Spread Index (ISI)">Initial Spread Index (ISI)</option>
+  <option value="bui"  data-short="BUI"  data-long="Buildup Index (BUI)">Buildup Index (BUI)</option>
+  <option value="dsr"  data-short="DSR"  data-long="Daily Severity Rating (DSR)">Daily Severity Rating (DSR)</option>
+      </select>
+      <span class="cwfis-spacer"></span>
+      <label for="fwiTime">Date</label>
+      <span class="cwfis-stamp" id="fwiStamp">Loading…</span>
+    </div>
+
+  <div class="cwfis-row">
+    <button id="fwiPlay" class="cwfis-play" type="button" title="Play/Pause" aria-label="Play FWI animation">▶</button>
+    <input id="fwiTime" class="cwfis-time" type="range" min="0" max="0" value="0" step="1" aria-label="FWI date slider" />
+  </div>
+
+    <div class="cwfis-legend">
+      <span>Legend:</span><img id="fwiLegend" alt="FWI legend" />
+    </div>
+    <div id="fwiErr" class="cwfis-err">Layer for this date/component may be unavailable.</div>
+  </div>
+
+  <!-- CWFIS: Fire Behavior controls (inline under “Fire Behavior”) -->
+  <div id="fbpControls" class="cwfis-controls" aria-live="polite">
+    <div class="cwfis-top">
+      <label for="fbpMetric">Metric</label>
+      <select id="fbpMetric" class="cwfis-select" aria-label="FBP metric">
+            <option value="hfi" data-short="HFI" data-long="Head Fire Intensity (HFI)">Head Fire Intensity (HFI)</option>
+  <option value="ros" data-short="ROS" data-long="Rate of Spread (ROS)">Rate of Spread (ROS)</option>
+  <option value="sfc" data-short="SFC" data-long="Surface Fuel Consumption (SFC)">Surface Fuel Consumption (SFC)</option>
+  <option value="tfc" data-short="TFC" data-long="Total Fuel Consumption (TFC)">Total Fuel Consumption (TFC)</option>
+  <option value="cfb" data-short="CFB" data-long="Crown Fraction Burned (CFB)">Crown Fraction Burned (CFB)</option>
+  <option value="fmc" data-short="FMC" data-long="Fine Fuel Moisture Content (FMC)">Fine Fuel Moisture Content (FMC)</option>
+  <option value="ft"  data-short="FT"  data-long="Fire Type (FT)">Fire Type (FT)</option>
+      </select>
+      <span class="cwfis-spacer"></span>
+      <label for="fbpTime">Date</label>
+      <span class="cwfis-stamp" id="fbpStamp">Loading…</span>
+    </div>
+
+  <div class="cwfis-row">
+    <button id="fbpPlay" class="cwfis-play" type="button" title="Play/Pause" aria-label="Play FBP animation">▶</button>
+    <input id="fbpTime" class="cwfis-time" type="range" min="0" max="0" value="0" step="1" aria-label="FBP date slider" />
+  </div>
+
+    <div class="cwfis-legend">
+      <span>Legend:</span><img id="fbpLegend" alt="FBP legend" />
+    </div>
+    <div id="fbpErr" class="cwfis-err">Layer for this date/metric may be unavailable.</div>
+  </div>
+
+  <!-- Centered Logo -->
+  <div id="mapLogo" class="map-logo">
+    <i class="fa-solid fa-fire"></i>
+    <span>nbfiremap</span>
+  </div>
+
+  <!-- Left Control Panel -->
+  <div id="leftControls" class="left-controls">
+    <button id="resetViewBtn" class="control-btn" type="button" title="Reset map view">
+      <i class="fa-solid fa-refresh"></i>
+    </button>
+    <button class="control-btn" type="button" title="Zoom in">
+      <i class="fa-solid fa-plus"></i>
+    </button>
+    <button class="control-btn" type="button" title="Zoom out">
+      <i class="fa-solid fa-minus"></i>
+    </button>
+    <button id="mapToggleBtn" class="control-btn" type="button" aria-pressed="false" title="Toggle layers">
+      <i class="fa-solid fa-layer-group"></i>
+    </button>
+    <button class="control-btn" type="button" title="Find my location">
+      <i class="fa-solid fa-location-crosshairs"></i>
+    </button>
+  </div>
+
+
+  <!-- Bottom Action Panel -->
+  <div id="bottomPanel" class="bottom-panel">
+    <button id="fireWatchBtn" class="action-btn" type="button">
+      <i class="fa-solid fa-fire"></i>
+      <span>nb fire watch</span>
+    </button>
+    <button id="fireSummaryBtn" class="action-btn" type="button">
+      <i class="fa-solid fa-list"></i>
+      <span>fire summary</span>
+    </button>
+    <button id="helpBtn" class="action-btn" type="button">
+      <i class="fa-solid fa-question"></i>
+      <span>help</span>
+    </button>
+  </div>
+
+  <!-- Fire Summary Modal -->
+  <div id="fireSummaryOverlay" class="fire-summary-overlay" role="presentation" hidden>
+    <div class="fire-summary" role="dialog" aria-modal="true" aria-labelledby="fs-title">
+      <header>
+        <h2 id="fs-title">New Brunswick Fire Summary</h2>
+              <div style="display:flex; gap:8px; align-items:center">
+        <button id="fs-export-excel" class="close-summary" type="button" title="Download Excel (.xlsx)">
+          <span class="icon"><i class="fa-solid fa-file-excel"></i></span> Export Excel
+        </button>
+        <button id="fs-export-pdf" class="close-summary" type="button" title="Download PDF">
+          <span class="icon"><i class="fa-solid fa-file-pdf"></i></span> Export PDF
+        </button>
+        <button id="fs-close" class="close-summary" type="button">
+          <span class="icon"><i class="fa-solid fa-xmark"></i></span> Close
+        </button>
+      </div>
+      </header>
+      <div id="fs-body" class="body"></div>
+    </div>
+  </div>
+
+  <!-- Map Help Modal -->
+  <div id="mapHelpOverlay" class="fire-summary-overlay" role="presentation" hidden>
+    <div class="fire-summary" role="dialog" aria-modal="true" aria-labelledby="mh-title">
+      <header>
+        <h2 id="mh-title">Map Layers &amp; How to Use</h2>
+        <button id="mh-close" class="close-summary" type="button"><span class="icon"><i class="fa-solid fa-xmark"></i></span> Close</button>
+      </header>
+      <div id="mh-body" class="body"></div>
+    </div>
+  </div>
+
+    <!-- Nearby Fires bottom sheet -->
+  <div id="nearbyPanel" class="nearby-panel" hidden>
+    <header>
+      <div class="nearby-title" id="nearbyTitle">Nearby Fires</div>
+      <button id="nearbyClose" class="nearby-close" type="button" aria-label="Close nearby fires panel">Close</button>
+    </header>
+    <div id="nearbyBody"></div>
+  </div>
+
+
+
+  <!-- Safe-area probe -->
+  <div id="sai-probe" aria-hidden="true"></div>
+
+
+
+  <!-- JS (deferred) -->
+  <script defer src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script defer src="https://unpkg.com/esri-leaflet/dist/esri-leaflet.js"></script>
+  <script defer src="https://unpkg.com/esri-leaflet-image/dist/esri-leaflet-image.js"></script>
+  <script defer src="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
+  <script defer src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script defer src="https://unpkg.com/esri-leaflet-cluster/dist/esri-leaflet-cluster.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.4/dist/jspdf.plugin.autotable.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <script defer src="https://unpkg.com/@mapbox/polyline@1.2.1/src/polyline.js"></script>
+  <script defer src="app.js?v=2"></script>
+</body>
+</html>

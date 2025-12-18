@@ -9,7 +9,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1763139256,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 14,
@@ -21,7 +21,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1762919337,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 15,
@@ -33,7 +33,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1765985273,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 16,
@@ -45,19 +45,19 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766053879,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 17,
     "Latitude": 45.051745,
     "Longitude": -66.894569,
     "Name": "Deer Island",
-    "Status": "In Service",
+    "Status": "Service reduced to 1 ferry",
     "Delays": "None",
-    "ServiceDisruption": "None",
+    "ServiceDisruption": "1 hour",
     "Area": "Saint John",
-    "LastUpdated": 1765914816,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "LastUpdated": 1766072458,
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 18,
@@ -69,7 +69,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1765737437,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 19,
@@ -81,7 +81,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1764584096,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 20,
@@ -93,30 +93,30 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1764551198,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 21,
     "Latitude": 45.610799,
     "Longitude": -65.902226,
     "Name": "Belleisle Bay ",
-    "Status": "In Service",
+    "Status": "Service Suspended (scheduled maintenance)",
     "Delays": "None",
     "ServiceDisruption": "None",
     "Area": "Saint John",
-    "LastUpdated": 1766067208,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "LastUpdated": 1766071315,
+    "downloaded_at": "2025-12-18T15:41:24Z"
   },
   {
     "Id": 22,
     "Latitude": 45.591669,
     "Longitude": -66.028549,
     "Name": "Evandale",
-    "Status": "Service Suspended (scheduled maintenance)",
+    "Status": "In Service",
     "Delays": "None",
     "ServiceDisruption": "None",
     "Area": "Saint John",
-    "LastUpdated": 1766068750,
-    "downloaded_at": "2025-12-18T14:43:41Z"
+    "LastUpdated": 1766069754,
+    "downloaded_at": "2025-12-18T15:41:24Z"
   }
 ]

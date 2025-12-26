@@ -9,7 +9,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766613774,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 14,
@@ -21,31 +21,31 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1762919337,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 15,
     "Latitude": 45.319788,
     "Longitude": -66.08058,
     "Name": "Peninsula Princess",
-    "Status": "In Service",
+    "Status": "Service Suspended (weather)",
     "Delays": "None",
     "ServiceDisruption": "None",
     "Area": "Saint John",
-    "LastUpdated": 1766665923,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "LastUpdated": 1766744358,
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 16,
     "Latitude": 45.453199,
     "Longitude": -65.979991,
     "Name": "Gondola Point",
-    "Status": "Service reduced to 1 ferry",
+    "Status": "In Service",
     "Delays": "None",
     "ServiceDisruption": "None",
     "Area": "Saint John",
-    "LastUpdated": 1766712635,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "LastUpdated": 1766744607,
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 17,
@@ -57,7 +57,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766202232,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 18,
@@ -69,7 +69,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766224609,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 19,
@@ -81,7 +81,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1764584096,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 20,
@@ -93,7 +93,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1764551198,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 21,
@@ -105,7 +105,7 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766198396,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   },
   {
     "Id": 22,
@@ -117,6 +117,6 @@
     "ServiceDisruption": "None",
     "Area": "Saint John",
     "LastUpdated": 1766455224,
-    "downloaded_at": "2025-12-26T09:32:00Z"
+    "downloaded_at": "2025-12-26T10:32:27Z"
   }
 ]

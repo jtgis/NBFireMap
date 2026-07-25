@@ -27,36 +27,36 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "319",
-        "FETCHED_FROM_ERD": 1785001229
+        "FETCHED_FROM_ERD": 1785004770
       }
     },
     {
       "type": "Feature",
-      "id": 75322,
+      "id": 75362,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.44586906124741,
-          45.889979426468734
+          -67.55907947266559,
+          46.385779484512035
         ]
       },
       "properties": {
-        "OBJECTID": 75322,
-        "FIRE_NAME": "Rush Lake",
-        "DEGREES_LAT": 45.88997,
-        "DEGREES_LONG": 66.44587,
+        "OBJECTID": 75362,
+        "FIRE_NAME": "Lumber Road",
+        "DEGREES_LAT": 46.38577,
+        "DEGREES_LONG": 67.55908,
         "FIRE_STAT_ID": 4,
         "FIRE_STAT_DESC_E": "Being Patrolled",
         "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 10,
-        "TIME_DETECTED": 1784823900000,
-        "FIRE_STAT_DATE": 1784980260000,
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1784988000000,
+        "FIRE_STAT_DATE": 1785001920000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "318",
-        "FETCHED_FROM_ERD": 1785001229
+        "FIRE_NUMBER_SHORT": "320",
+        "FETCHED_FROM_ERD": 1785004770
       }
     }
   ],

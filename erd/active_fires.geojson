@@ -3,6 +3,35 @@
   "features": [
     {
       "type": "Feature",
+      "id": 75382,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9384492387819,
+          46.03679943986011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75382,
+        "FIRE_NAME": "Edge Water",
+        "DEGREES_LAT": 46.036789999999996,
+        "DEGREES_LONG": 66.93845,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1785094080000,
+        "FIRE_STAT_DATE": 1785098640000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "321",
+        "FETCHED_FROM_ERD": 1785101976
+      }
+    },
+    {
+      "type": "Feature",
       "id": 75342,
       "geometry": {
         "type": "Point",
@@ -27,7 +56,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "319",
-        "FETCHED_FROM_ERD": 1785098290
+        "FETCHED_FROM_ERD": 1785101976
       }
     }
   ],

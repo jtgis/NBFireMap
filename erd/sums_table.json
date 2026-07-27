@@ -50,13 +50,13 @@
     {
       "attributes": {
         "OBJECTID": 1,
-        "AVG_10Y_BURN": 347.3,
-        "AVG_10Y_FIRES": 189,
+        "AVG_10Y_BURN": 347.6,
+        "AVG_10Y_FIRES": 190,
         "LAST_YEARS_COUNT": 176,
-        "LAST_YEARS_BURN": 105.8,
+        "LAST_YEARS_BURN": 105.6,
         "THIS_YEARS_COUNT": 321,
         "THIS_YEARS_BURN": 462.2,
-        "FETCHED_FROM_ERD": 1785117834
+        "FETCHED_FROM_ERD": 1785123069
       }
     }
   ]

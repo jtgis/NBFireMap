@@ -27,7 +27,36 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785260948
+        "FETCHED_FROM_ERD": 1785264663
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.04811865032086,
+          47.52558973753529
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75482,
+        "FIRE_NAME": "Tilley Road",
+        "DEGREES_LAT": 47.52558,
+        "DEGREES_LONG": 65.04812,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1785255000000,
+        "FIRE_STAT_DATE": 1785255000000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "326",
+        "FETCHED_FROM_ERD": 1785264663
       }
     },
     {
@@ -56,7 +85,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "325",
-        "FETCHED_FROM_ERD": 1785260948
+        "FETCHED_FROM_ERD": 1785264663
       }
     },
     {
@@ -85,7 +114,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "323",
-        "FETCHED_FROM_ERD": 1785260948
+        "FETCHED_FROM_ERD": 1785264663
       }
     },
     {
@@ -103,18 +132,18 @@
         "FIRE_NAME": "Grant Settlement",
         "DEGREES_LAT": 45.864419999999996,
         "DEGREES_LONG": 67.42045,
-        "FIRE_STAT_ID": 1,
-        "FIRE_STAT_DESC_E": "Out of Control",
-        "FIRE_STAT_DESC_F": "Hors contrôle",
+        "FIRE_STAT_ID": 2,
+        "FIRE_STAT_DESC_E": "Contained",
+        "FIRE_STAT_DESC_F": "Contenu ",
         "FIRE_SIZE": 20,
         "TIME_DETECTED": 1785171600000,
-        "FIRE_STAT_DATE": 1785237600000,
+        "FIRE_STAT_DATE": 1785264240000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 80,
+        "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785260948
+        "FETCHED_FROM_ERD": 1785264663
       }
     }
   ],

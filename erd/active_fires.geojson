@@ -3,35 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "id": 75422,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.61032946152865,
-          45.867339393477096
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75422,
-        "FIRE_NAME": "Jigger Road",
-        "DEGREES_LAT": 45.867329999999995,
-        "DEGREES_LONG": 67.61032999999999,
-        "FIRE_STAT_ID": 2,
-        "FIRE_STAT_DESC_E": "Contained",
-        "FIRE_STAT_DESC_F": "Contenu ",
-        "FIRE_SIZE": 4,
-        "TIME_DETECTED": 1785178200000,
-        "FIRE_STAT_DATE": 1785192600000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "323",
-        "FETCHED_FROM_ERD": 1785233571
-      }
-    },
-    {
-      "type": "Feature",
       "id": 75442,
       "geometry": {
         "type": "Point",
@@ -45,18 +16,47 @@
         "FIRE_NAME": "Mapleton",
         "DEGREES_LAT": 46.12969,
         "DEGREES_LONG": 64.84263,
-        "FIRE_STAT_ID": 2,
-        "FIRE_STAT_DESC_E": "Contained",
-        "FIRE_STAT_DESC_F": "Contenu ",
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
         "FIRE_SIZE": 0.10000000149011612,
         "TIME_DETECTED": 1785191100000,
-        "FIRE_STAT_DATE": 1785192780000,
+        "FIRE_STAT_DATE": 1785236400000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785233571
+        "FETCHED_FROM_ERD": 1785236728
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.61032946152865,
+          45.867339393477096
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75422,
+        "FIRE_NAME": "Jigger Road",
+        "DEGREES_LAT": 45.867329999999995,
+        "DEGREES_LONG": 67.61032999999999,
+        "FIRE_STAT_ID": 3,
+        "FIRE_STAT_DESC_E": "Under Control",
+        "FIRE_STAT_DESC_F": "Maîtrisé ",
+        "FIRE_SIZE": 3,
+        "TIME_DETECTED": 1785178200000,
+        "FIRE_STAT_DATE": 1785234900000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "323",
+        "FETCHED_FROM_ERD": 1785236728
       }
     },
     {
@@ -85,7 +85,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 80,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785233571
+        "FETCHED_FROM_ERD": 1785236728
       }
     }
   ],

@@ -27,7 +27,36 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785236728
+        "FETCHED_FROM_ERD": 1785240065
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75462,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1692189451189,
+          45.44768935408939
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75462,
+        "FIRE_NAME": "Greenwich Fire",
+        "DEGREES_LAT": 45.44768,
+        "DEGREES_LONG": 66.16922,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1785195000000,
+        "FIRE_STAT_DATE": 1785283200000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "325",
+        "FETCHED_FROM_ERD": 1785240065
       }
     },
     {
@@ -56,7 +85,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "323",
-        "FETCHED_FROM_ERD": 1785236728
+        "FETCHED_FROM_ERD": 1785240065
       }
     },
     {
@@ -79,13 +108,13 @@
         "FIRE_STAT_DESC_F": "Hors contrôle",
         "FIRE_SIZE": 20,
         "TIME_DETECTED": 1785171600000,
-        "FIRE_STAT_DATE": 1785175200000,
+        "FIRE_STAT_DATE": 1785237600000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 80,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785236728
+        "FETCHED_FROM_ERD": 1785240065
       }
     }
   ],

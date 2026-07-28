@@ -27,7 +27,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785275025
+        "FETCHED_FROM_ERD": 1785278455
       }
     },
     {
@@ -56,7 +56,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "323",
-        "FETCHED_FROM_ERD": 1785275025
+        "FETCHED_FROM_ERD": 1785278455
       }
     },
     {
@@ -85,65 +85,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785275025
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75482,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.04811865032086,
-          47.52558973753529
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75482,
-        "FIRE_NAME": "Tilley Road",
-        "DEGREES_LAT": 47.52558,
-        "DEGREES_LONG": 65.04812,
-        "FIRE_STAT_ID": 4,
-        "FIRE_STAT_DESC_E": "Being Patrolled",
-        "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 0.10000000149011612,
-        "TIME_DETECTED": 1785255000000,
-        "FIRE_STAT_DATE": 1785255000000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "326",
-        "FETCHED_FROM_ERD": 1785275025
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75462,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.1692189451189,
-          45.44768935408939
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75462,
-        "FIRE_NAME": "Greenwich Fire",
-        "DEGREES_LAT": 45.44768,
-        "DEGREES_LONG": 66.16922,
-        "FIRE_STAT_ID": 4,
-        "FIRE_STAT_DESC_E": "Being Patrolled",
-        "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 0.10000000149011612,
-        "TIME_DETECTED": 1785195000000,
-        "FIRE_STAT_DATE": 1785283200000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "325",
-        "FETCHED_FROM_ERD": 1785275025
+        "FETCHED_FROM_ERD": 1785278455
       }
     },
     {
@@ -172,7 +114,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 1,
         "FIRE_NUMBER_SHORT": "327",
-        "FETCHED_FROM_ERD": 1785275025
+        "FETCHED_FROM_ERD": 1785278455
       }
     }
   ],

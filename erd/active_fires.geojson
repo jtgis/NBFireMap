@@ -13,7 +13,7 @@
       },
       "properties": {
         "OBJECTID": 75502,
-        "FIRE_NAME": "Power line",
+        "FIRE_NAME": "Pine Glen Road",
         "DEGREES_LAT": 45.978,
         "DEGREES_LONG": 64.80667,
         "FIRE_STAT_ID": 1,
@@ -27,7 +27,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 10,
         "FIRE_NUMBER_SHORT": "327",
-        "FETCHED_FROM_ERD": 1785340676
+        "FETCHED_FROM_ERD": 1785343664
       }
     },
     {
@@ -56,7 +56,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "328",
-        "FETCHED_FROM_ERD": 1785340676
+        "FETCHED_FROM_ERD": 1785343664
       }
     },
     {
@@ -85,7 +85,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "323",
-        "FETCHED_FROM_ERD": 1785340676
+        "FETCHED_FROM_ERD": 1785343664
       }
     },
     {
@@ -114,7 +114,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785340676
+        "FETCHED_FROM_ERD": 1785343664
       }
     },
     {
@@ -143,7 +143,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785340676
+        "FETCHED_FROM_ERD": 1785343664
       }
     }
   ],

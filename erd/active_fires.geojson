@@ -1,9 +1,152 @@
 {
-  "error": {
-    "code": 400,
-    "message": "Failed to execute query.",
-    "details": []
-  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 75522,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.08416894556781,
+          46.08292946857659
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75522,
+        "FIRE_NAME": "Twin Towers",
+        "DEGREES_LAT": 46.08292,
+        "DEGREES_LONG": 66.08417,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1785285000000,
+        "FIRE_STAT_DATE": 1785332700000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "328",
+        "FETCHED_FROM_ERD": 1785388840
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75502,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.80666849789428,
+          45.97800947749908
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75502,
+        "FIRE_NAME": "Pine Glen Road",
+        "DEGREES_LAT": 45.978,
+        "DEGREES_LONG": 64.80667,
+        "FIRE_STAT_ID": 1,
+        "FIRE_STAT_DESC_E": "Out of Control",
+        "FIRE_STAT_DESC_F": "Hors contrôle",
+        "FIRE_SIZE": 5,
+        "TIME_DETECTED": 1785270480000,
+        "FIRE_STAT_DATE": 1785344160000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 30,
+        "FIRE_NUMBER_SHORT": "327",
+        "FETCHED_FROM_ERD": 1785388840
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.61032946152865,
+          45.867339393477096
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75422,
+        "FIRE_NAME": "Jigger Road",
+        "DEGREES_LAT": 45.867329999999995,
+        "DEGREES_LONG": 67.61032999999999,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 1.100000023841858,
+        "TIME_DETECTED": 1785178200000,
+        "FIRE_STAT_DATE": 1785323160000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "323",
+        "FETCHED_FROM_ERD": 1785388840
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.42044939648707,
+          45.86442939762455
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75402,
+        "FIRE_NAME": "Grant Settlement",
+        "DEGREES_LAT": 45.864419999999996,
+        "DEGREES_LONG": 67.42045,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 11,
+        "TIME_DETECTED": 1785171600000,
+        "FIRE_STAT_DATE": 1785325440000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "322",
+        "FETCHED_FROM_ERD": 1785388840
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75442,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.84262851689878,
+          46.12969950374664
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75442,
+        "FIRE_NAME": "Mapleton",
+        "DEGREES_LAT": 46.12969,
+        "DEGREES_LONG": 64.84263,
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
+        "FIRE_SIZE": 0.10000000149011612,
+        "TIME_DETECTED": 1785191100000,
+        "FIRE_STAT_DATE": 1785236400000,
+        "FIRE_OF_NOTE_INDCTR": 0,
+        "FIRE_NOTE_ENG": "No",
+        "FIRE_NOTE_FR": "Non",
+        "PERCENT_CONTAINED": 100,
+        "FIRE_NUMBER_SHORT": "324",
+        "FETCHED_FROM_ERD": 1785388840
+      }
+    }
+  ],
   "crs": {
     "type": "name",
     "properties": {

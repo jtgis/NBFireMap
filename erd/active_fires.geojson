@@ -27,7 +27,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785493026
+        "FETCHED_FROM_ERD": 1785496280
       }
     },
     {
@@ -56,7 +56,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785493026
+        "FETCHED_FROM_ERD": 1785496280
       }
     },
     {
@@ -74,18 +74,18 @@
         "FIRE_NAME": "Pine Glen Road",
         "DEGREES_LAT": 45.978,
         "DEGREES_LONG": 64.80667,
-        "FIRE_STAT_ID": 3,
-        "FIRE_STAT_DESC_E": "Under Control",
-        "FIRE_STAT_DESC_F": "Maîtrisé ",
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
         "FIRE_SIZE": 5.5,
         "TIME_DETECTED": 1785270480000,
-        "FIRE_STAT_DATE": 1785428400000,
+        "FIRE_STAT_DATE": 1785496140000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "327",
-        "FETCHED_FROM_ERD": 1785493026
+        "FETCHED_FROM_ERD": 1785496280
       }
     }
   ],

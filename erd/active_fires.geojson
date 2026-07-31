@@ -3,35 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "id": 75402,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.42044939648707,
-          45.86442939762455
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75402,
-        "FIRE_NAME": "Grant Settlement",
-        "DEGREES_LAT": 45.864419999999996,
-        "DEGREES_LONG": 67.42045,
-        "FIRE_STAT_ID": 4,
-        "FIRE_STAT_DESC_E": "Being Patrolled",
-        "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 11,
-        "TIME_DETECTED": 1785171600000,
-        "FIRE_STAT_DATE": 1785497760000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "322",
-        "FETCHED_FROM_ERD": 1785516928
-      }
-    },
-    {
-      "type": "Feature",
       "id": 75442,
       "geometry": {
         "type": "Point",
@@ -56,7 +27,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "324",
-        "FETCHED_FROM_ERD": 1785516928
+        "FETCHED_FROM_ERD": 1785520420
       }
     },
     {
@@ -85,7 +56,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "327",
-        "FETCHED_FROM_ERD": 1785516928
+        "FETCHED_FROM_ERD": 1785520420
       }
     }
   ],

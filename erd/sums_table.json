@@ -53,10 +53,10 @@
         "AVG_10Y_BURN": 354.7,
         "AVG_10Y_FIRES": 198,
         "LAST_YEARS_COUNT": 191,
-        "LAST_YEARS_BURN": 107.4,
+        "LAST_YEARS_BURN": 109,
         "THIS_YEARS_COUNT": 328,
         "THIS_YEARS_BURN": 480.2,
-        "FETCHED_FROM_ERD": 1785756649
+        "FETCHED_FROM_ERD": 1785763311
       }
     }
   ]

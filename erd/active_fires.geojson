@@ -27,7 +27,7 @@
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "330",
-        "FETCHED_FROM_ERD": 1786188689
+        "FETCHED_FROM_ERD": 1786192374
       }
     },
     {
@@ -45,18 +45,18 @@
         "FIRE_NAME": "Fawn Lake",
         "DEGREES_LAT": 45.842749999999995,
         "DEGREES_LONG": 67.38623,
-        "FIRE_STAT_ID": 3,
-        "FIRE_STAT_DESC_E": "Under Control",
-        "FIRE_STAT_DESC_F": "Maîtrisé ",
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
         "FIRE_SIZE": 1.2999999523162842,
         "TIME_DETECTED": 1786032900000,
-        "FIRE_STAT_DATE": 1786115040000,
+        "FIRE_STAT_DATE": 1786188720000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
         "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "331",
-        "FETCHED_FROM_ERD": 1786188689
+        "FETCHED_FROM_ERD": 1786192374
       }
     }
   ],

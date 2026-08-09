@@ -1,36 +1,6 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 75582,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.38622938366292,
-          45.842759394801305
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75582,
-        "FIRE_NAME": "Fawn Lake",
-        "DEGREES_LAT": 45.842749999999995,
-        "DEGREES_LONG": 67.38623,
-        "FIRE_STAT_ID": 4,
-        "FIRE_STAT_DESC_E": "Being Patrolled",
-        "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 1.2999999523162842,
-        "TIME_DETECTED": 1786032900000,
-        "FIRE_STAT_DATE": 1786276440000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "331",
-        "FETCHED_FROM_ERD": 1786303913
-      }
-    }
-  ],
+  "features": [],
   "crs": {
     "type": "name",
     "properties": {

@@ -16,18 +16,18 @@
         "FIRE_NAME": "Flume Ridge",
         "DEGREES_LAT": 45.41466,
         "DEGREES_LONG": 67.0321,
-        "FIRE_STAT_ID": 1,
-        "FIRE_STAT_DESC_E": "Out of Control",
-        "FIRE_STAT_DESC_F": "Hors contrôle",
+        "FIRE_STAT_ID": 4,
+        "FIRE_STAT_DESC_E": "Being Patrolled",
+        "FIRE_STAT_DESC_F": "Patrouillé ",
         "FIRE_SIZE": 0.10000000149011612,
         "TIME_DETECTED": 1786391100000,
-        "FIRE_STAT_DATE": 1786391100000,
+        "FIRE_STAT_DATE": 1786399200000,
         "FIRE_OF_NOTE_INDCTR": 0,
         "FIRE_NOTE_ENG": "No",
         "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 1,
+        "PERCENT_CONTAINED": 100,
         "FIRE_NUMBER_SHORT": "334",
-        "FETCHED_FROM_ERD": 1786397589
+        "FETCHED_FROM_ERD": 1786401154
       }
     }
   ],

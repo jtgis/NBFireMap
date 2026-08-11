@@ -1,36 +1,6 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 75622,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.03209923995792,
-          45.414669328430485
-        ]
-      },
-      "properties": {
-        "OBJECTID": 75622,
-        "FIRE_NAME": "Flume Ridge",
-        "DEGREES_LAT": 45.41466,
-        "DEGREES_LONG": 67.0321,
-        "FIRE_STAT_ID": 4,
-        "FIRE_STAT_DESC_E": "Being Patrolled",
-        "FIRE_STAT_DESC_F": "Patrouillé ",
-        "FIRE_SIZE": 0.10000000149011612,
-        "TIME_DETECTED": 1786391100000,
-        "FIRE_STAT_DATE": 1786447740000,
-        "FIRE_OF_NOTE_INDCTR": 0,
-        "FIRE_NOTE_ENG": "No",
-        "FIRE_NOTE_FR": "Non",
-        "PERCENT_CONTAINED": 100,
-        "FIRE_NUMBER_SHORT": "334",
-        "FETCHED_FROM_ERD": 1786456154
-      }
-    }
-  ],
+  "features": [],
   "crs": {
     "type": "name",
     "properties": {
